@@ -49,7 +49,7 @@ Please write EMAIL in English or German, I only reply to EMAILs that I am intere
 ![image](https://raw.githubusercontent.com/AxtMueller/Windows-Kernel-Explorer/master/screenshots/mainmenu.png)
 ### Module path modification:
 ![image](https://raw.githubusercontent.com/AxtMueller/Windows-Kernel-Explorer/master/screenshots/modpath.png)
-### Memory Editor (Print structure):
+### Memory editor (print structure):
 ![image](https://raw.githubusercontent.com/AxtMueller/Windows-Kernel-Explorer/master/screenshots/memedit1.png)
-### Memory Editor (Disassemble function):
+### Memory editor (disassemble function):
 ![image](https://raw.githubusercontent.com/AxtMueller/Windows-Kernel-Explorer/master/screenshots/memedit2.png)
