@@ -45,3 +45,11 @@ Please write EMAIL in English or German, I only reply to EMAILs that I am intere
 ![image](https://raw.githubusercontent.com/AxtMueller/Windows-Kernel-Explorer/master/screenshots/wx32.png)
 ### Windows 10 64-bit:
 ![image](https://raw.githubusercontent.com/AxtMueller/Windows-Kernel-Explorer/master/screenshots/wx64.png)
+### Main menu:
+![image](https://raw.githubusercontent.com/AxtMueller/Windows-Kernel-Explorer/master/screenshots/mainmenu.png)
+### Module path modification:
+![image](https://raw.githubusercontent.com/AxtMueller/Windows-Kernel-Explorer/master/screenshots/modpath.png)
+### Memory Editor (Print structure):
+![image](https://raw.githubusercontent.com/AxtMueller/Windows-Kernel-Explorer/master/screenshots/memedit1.png)
+### Memory Editor (Disassemble function):
+![image](https://raw.githubusercontent.com/AxtMueller/Windows-Kernel-Explorer/master/screenshots/memedit2.png)
