@@ -8,7 +8,7 @@ WKE will automatically download required symbol files if no native support for c
 You can customize WKE by editing the configuration file. Currently, you can set the device name and symbolic link name of driver, and altitude of filter. You can also enable kernel-mode and user-mode characteristics randomization to avoid being detected by malware. If you rename the EXE file of WKE, then you need to rename SYS/DAT/INI files together with the same name.
 
 ### About digital signature
-Due to I don't have a digital certificate, so I have to use a leaked digital certificate from HT SRL to sign driver of WKE. I use "DSEFIX" as an alternative solution to load driver, if WKE unable to load driver, you can try to launch WKE with "WKE_dsefix.bat".
+Due to I don't have a digital certificate, so I have to use a leaked digital certificate from HT SRL to sign drivers of WKE. I use "DSEFIX" as an alternative solution to load driver, if WKE unable to load driver, you can try to launch WKE with "WKE_dsefix.bat". Signing files with the HT SRL digital certificate causes a side effect: almost all anti-virus softwares consider files with HT SRL digital signature are viruses, because many hackers use it to sign malwares since 2015. If you don't trust WKE, you can run it in a test environment, or monitor its network activity on the router.
 
 # Core Features
 1. Process management (Module, Thread, Handle, Memory, Window, Windows Hook, etc.)
