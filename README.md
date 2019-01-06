@@ -26,6 +26,7 @@ Due to I don't have a digital certificate, I have to use the leaked digital cert
 ### Current Version: 20181231
 This is the first public version.
 #### Revoked Versions: 00000000
+These versions have serious security issues and should not be used anymore.
 
 # Thanking List
 1. Team of WIN64AST (I referenced the UI design and many features of this software)
