@@ -26,7 +26,7 @@ It is a bit awkward, so I said straightforwardly: I don't plan to share the sour
 10. Enable/disable some obnoxious Windows components
 
 # Screenshots
-In order to optimize the page load speed in low quality network environments, I don't put pictures on this page.
+In order to optimize the page load speed in low quality network environments, I don't place pictures on this page.
 #### [Click this link to view screenshots.](/screenshots/README.md)
 
 # Thanking List
