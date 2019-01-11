@@ -17,7 +17,7 @@ It is a bit awkward, so I said straightforwardly: I don't plan to share the sour
 1. Process management (Module, Thread, Handle, Memory, Window, Windows Hook, etc.)
 2. File management
 3. Registry management
-4. Kernel-mode callback, filter, timer, NDIS blocks and WFP stuffs management
+4. Kernel-mode callback, filter, timer, NDIS blocks and WFP callout functions management
 5. Kernel-mode hook scanning (MSR, EAT, IAT, CODE PATCH, SSDT, SSSDT, IDT, IRP, OBJECT)
 6. User-mode hook scanning (Kernel Callback Table, EAT, IAT, CODE PATCH)
 7. Memory editor and symbol parser (it looks like a simplified version of WINDBG)
