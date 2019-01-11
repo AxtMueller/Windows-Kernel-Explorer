@@ -25,12 +25,6 @@ It is a bit awkward, so I said straightforwardly: I don't plan to share the sour
 9. Path modification for driver, process and process module
 10. Enable/disable some obnoxious Windows components
 
-# Revision History
-### Current Version: 20181231
-This is the first public version.
-#### Revoked Versions: 00000000
-These versions have serious security issues and should not be used anymore.
-
 # Thanking List
 1. Team of WIN64AST (I referenced the UI design and many features of this software)
 2. Team of PCHunter (I referenced some features of this software)
@@ -41,20 +35,8 @@ These versions have serious security issues and should not be used anymore.
 ### My EMAIL address is AxtMueller#gmx.de (Replace # with @).
 Please write EMAIL in English or German, I only reply to EMAILs that I am interested in.
 
-# Screenshots
-### Windows XP 32-bit:
-![image](https://raw.githubusercontent.com/AxtMueller/Windows-Kernel-Explorer/master/screenshots/xp32.png)
-### Windows XP 64-bit:
-![image](https://raw.githubusercontent.com/AxtMueller/Windows-Kernel-Explorer/master/screenshots/xp64.png)
-### Windows 10 32-bit:
-![image](https://raw.githubusercontent.com/AxtMueller/Windows-Kernel-Explorer/master/screenshots/wx32.png)
-### Windows 10 64-bit:
-![image](https://raw.githubusercontent.com/AxtMueller/Windows-Kernel-Explorer/master/screenshots/wx64.png)
-### Main menu:
-![image](https://raw.githubusercontent.com/AxtMueller/Windows-Kernel-Explorer/master/screenshots/mainmenu.png)
-### Module path modification:
-![image](https://raw.githubusercontent.com/AxtMueller/Windows-Kernel-Explorer/master/screenshots/modpath.png)
-### Memory editor (print structure):
-![image](https://raw.githubusercontent.com/AxtMueller/Windows-Kernel-Explorer/master/screenshots/memedit1.png)
-### Memory editor (disassemble function):
-![image](https://raw.githubusercontent.com/AxtMueller/Windows-Kernel-Explorer/master/screenshots/memedit2.png)
+# Revision History
+### Current Version: 20181231
+This is the first public version.
+#### Revoked Versions: 00000000
+These versions have serious security issues and should not be used anymore.
