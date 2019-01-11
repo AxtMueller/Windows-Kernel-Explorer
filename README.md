@@ -13,7 +13,7 @@ Due to I don't have a digital certificate, I have to use the leaked digital cert
 ### About open source
 It is a bit awkward, so I said straightforwardly: I don't plan to share the source code of this tool, but I might share some source code of test programs that related to this tool.
 
-# Core Features
+# Main Features
 1. Process management (Module, Thread, Handle, Memory, Window, Windows Hook, etc.)
 2. File management
 3. Registry management
@@ -25,6 +25,10 @@ It is a bit awkward, so I said straightforwardly: I don't plan to share the sour
 9. Path modification for driver, process and process module
 10. Enable/disable some obnoxious Windows components
 
+# Screenshots
+In order to optimize the page load speed in low quality network environments, I don't put pictures on this page.
+#### [Click this link to view screenshots.](/screenshots/README.md)
+
 # Thanking List
 1. Team of WIN64AST (I referenced the UI design and many features of this software)
 2. Team of PCHunter (I referenced some features of this software)
@@ -32,7 +36,7 @@ It is a bit awkward, so I said straightforwardly: I don't plan to share the sour
 4. Author of DSEFIX (I use it as an alternative solution to load driver)
 
 # Contact Me
-### My EMAIL address is AxtMueller#gmx.de (Replace # with @).
+#### My EMAIL address is AxtMueller#gmx.de (Replace # with @).
 Please write EMAIL in English or German, I only reply to EMAILs that I am interested in.
 
 # Revision History
