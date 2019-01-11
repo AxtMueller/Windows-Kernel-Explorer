@@ -10,6 +10,9 @@ You can customize WKE by editing the configuration file. Currently, you can set 
 ### About digital signature
 Due to I don't have a digital certificate, I have to use the leaked digital certificate from HT SRL to sign drivers of WKE. I use "DSEFIX" as an alternative solution to bypass DSE, you can try to launch WKE with "WKE_dsefix.bat" if WKE loads driver unsuccessfully on your system. Signing files with the HT SRL digital certificate causes a side effect: almost all anti-virus softwares consider files with HT SRL digital signature are viruses, because many hackers use it to sign malwares since 2015. If you don't trust WKE, you can run it in a test environment, or monitor its network activity on your router.
 
+### About open source
+This is a bit awkward, so I said it straightforwardly: I don't plan to share the source code of this tool, but I might share some source code of test programs that related to this tool.
+
 # Core Features
 1. Process management (Module, Thread, Handle, Memory, Window, Windows Hook, etc.)
 2. File management
