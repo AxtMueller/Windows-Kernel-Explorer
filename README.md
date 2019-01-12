@@ -27,7 +27,7 @@ It is a bit awkward, so I said straightforwardly: I don't plan to share the sour
 
 # Screenshots
 In order to optimize the page load speed in low quality network environments, I don't place pictures on this page.
-#### [Click this link to view screenshots (click middle button will open the page in a new window).](/screenshots/README.md)
+#### [Click this link to view screenshots (click middle button to open the page in a new window).](/screenshots/README.md)
 
 # Thanking List
 1. Team of WIN64AST (I referenced the UI design and many features of this software)
