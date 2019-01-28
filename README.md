@@ -36,9 +36,9 @@ In order to optimize the page load speed in low quality network environments, I 
 4. Author of DSEFIX (I use it as an alternative solution to load driver)
 
 # Cooperation
-1. Webpage link: Place your link in WKE on the "About" page.
-2. Customized version: Delete obvious characteristics of WKE and remove all of my personal information in WKE.
-3. Driver library: The library contains main features of WKE.
+1. Customization: Delete obvious characteristics of WKE and remove all of my personal information in WKE.
+2. Implant link: Place your link in WKE on the "About" page.
+3. Driver library: It contains all main features of WKE.
 4. Driver source code: Full driver source code of WKE.
 #### EMAIL: AxtMueller#gmx.de (Replace # with @)
 Please write EMAIL in English or German, I only reply to EMAILs that I am interested in.
@@ -47,7 +47,7 @@ Please write EMAIL in English or German, I only reply to EMAILs that I am intere
 ### Current Version: 20190128
 Bug fix: symbol related features in memory editor dialog.  
 Bug fix: prompt the status of process and thread in the context menu.  
-New feature: disable CreateProcess / CreateThread / LoadImage / Registry / Process and Thread object callbacks, file system filters.  
+New feature: disable CreateProcess / CreateThread / LoadImage / Registry / Process and Thread object callbacks, FS filters.  
 New feature: support drag file to input box dialog (do not need to type input when you need to fill the file path).  
 New feature: highlight hidden drivers and processes.  
 New feature: output all object names to a file.  
