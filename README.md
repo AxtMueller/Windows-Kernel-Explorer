@@ -57,5 +57,5 @@ New feature: registry value editor dialog.
 New feature: hide process, hide driver.  
 New feature: unsigned driver loader.  
 New feature: hive file operations.  
-#### Revoked Versions: 00000000
+### Revoked Versions: 00000000
 These versions have serious security issues and should not be used anymore.
