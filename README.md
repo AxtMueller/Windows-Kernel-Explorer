@@ -43,7 +43,7 @@ In order to optimize the page load speed in low quality network environments, I 
 4. Driver source code: Entire driver source code of WKE.  
 #### Please write E-MAIL in English or German, I only reply to E-MAILs that I am interested in.
 
-# [Revision History](/binaries/README.md)
+# [Revision History](/binaries/README.md#all-revision-history)
 ### Current Version: 20190128
 Bug fix: symbol related features in memory editor dialog.  
 Bug fix: prompt the status of process and thread in the context menu.  
