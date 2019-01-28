@@ -43,7 +43,7 @@ In order to optimize the page load speed in low quality network environments, I 
 4. Driver source code: Entire driver source code of WKE.  
 #### Please write E-MAIL in English or German, I only reply to E-MAILs that I am interested in.
 
-# Revision History
+# [Revision History](/binaries/README.md)
 ### Current Version: 20190128
 Bug fix: symbol related features in memory editor dialog.  
 Bug fix: prompt the status of process and thread in the context menu.  
@@ -58,5 +58,4 @@ New feature: hide process, hide driver.
 New feature: unsigned driver loader.  
 New feature: hive file operations.  
 #### Revoked Versions: 00000000
-These versions have serious security issues and should not be used anymore.  
-#### [Click this link to view full revision history (click middle button to open the page in a new window).](/binaries/README.md)
+These versions have serious security issues and should not be used anymore.
