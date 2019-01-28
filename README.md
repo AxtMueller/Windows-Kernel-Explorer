@@ -36,11 +36,11 @@ In order to optimize the page load speed in low quality network environments, I 
 4. Author of DSEFIX (I use it as an alternative solution to load driver)
 
 # Cooperation
+#### EMAIL: AxtMueller#gmx.de (Replace # with @)
 1. Customization: Delete obvious characteristics of WKE and remove all of my personal information in WKE.
 2. Implant link: Place your link in WKE on the "About" page.
-3. Driver library: It contains all main features of WKE.
+3. Driver library: It contains most of main features of WKE.
 4. Driver source code: Full driver source code of WKE.
-#### EMAIL: AxtMueller#gmx.de (Replace # with @)
 Please write EMAIL in English or German, I only reply to EMAILs that I am interested in.
 
 # Revision History
