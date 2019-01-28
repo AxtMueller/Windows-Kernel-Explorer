@@ -47,7 +47,7 @@ Please write EMAIL in English or German, I only reply to EMAILs that I am intere
 ### Current Version: 20190128
 Bug fix: symbol related features in memory editor dialog.  
 Bug fix: prompt the status of process and thread in the context menu.  
-New feature: disable CreateProcess / CreateThread / LoadImage callbacks, registry callbacks, process / thread object callbacks, file system filters.  
+New feature: disable CreateProcess / CreateThread / LoadImage / Registry / Process and Thread object callbacks, file system filters.  
 New feature: support drag file to input box dialog (do not need to type input when you need to fill the file path).  
 New feature: highlight hidden drivers and processes.  
 New feature: output all object names to a file.  
