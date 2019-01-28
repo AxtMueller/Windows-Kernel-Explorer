@@ -44,6 +44,7 @@ In order to optimize the page load speed in low quality network environments, I 
 #### Please write E-MAIL in English or German, I only reply to E-MAILs that I am interested in.
 
 # Revision History
+[Click this link to view full revision history (click middle button to open the page in a new window).](/binaries/README.md)
 ### Current Version: 20190128
 Bug fix: symbol related features in memory editor dialog.  
 Bug fix: prompt the status of process and thread in the context menu.  
