@@ -38,7 +38,7 @@ In order to optimize the page load speed in low quality network environments, I 
 # Cooperation
 #### E-MAIL: AxtMueller#gmx.de (Replace # with @)
 1. Customization: Modify obvious characteristics of WKE and remove all of my personal information in WKE.
-2. Implant link: Place your link in WKE on the "About" page.
+2. Implant link: Implant link in WKE on "About" page, every user will see it when main dialog appears.
 3. Driver static library: It contains most of main features of WKE.
 4. Driver source code: Entire driver source code of WKE.  
 #### Please write E-MAIL in English or German, I only reply to E-MAILs that I am interested in.
