@@ -42,7 +42,7 @@ In order to optimize the page load speed in low quality network environments, I 
 3. Driver static library: It contains most of main features of WKE.
 4. Driver source code: Entire driver source code of WKE.
 #### E-MAIL: AxtMueller#gmx.de (Replace # with @)
-#### Please write E-MAIL in English or German, I only reply to E-MAILs that I am interested in.
+Please write E-MAIL in English or German, I only reply to E-MAILs that I am interested in.
 
 # [Revision History](/binaries/README.md#all-revision-history)
 ### Current Version: 20190128
