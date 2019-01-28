@@ -15,3 +15,5 @@
 ![image](https://raw.githubusercontent.com/AxtMueller/Windows-Kernel-Explorer/master/screenshots/memedit1.png)
 ### Memory editor (disassemble function):
 ![image](https://raw.githubusercontent.com/AxtMueller/Windows-Kernel-Explorer/master/screenshots/memedit2.png)
+### Memory editor (fuzzy lookup function names):
+![image](https://raw.githubusercontent.com/AxtMueller/Windows-Kernel-Explorer/master/screenshots/memedit3.png)
