@@ -28,7 +28,7 @@ It is a bit awkward, so I say straightforwardly: I don't plan to share the sourc
 # Screenshots
 In order to optimize the page load speed in low quality network environments, I only place one picture on this page.
 ![image](https://raw.githubusercontent.com/AxtMueller/Windows-Kernel-Explorer/master/screenshots/mainmenu.png)
-#### [Click this link to view all screenshots (click middle button to open the page in a new window).](/screenshots/README.md)
+[Click this link to view all screenshots (click middle button to open the page in a new window).](/screenshots/README.md)
 
 # Thanking List
 1. Team of WIN64AST (I referenced the UI design and many features of this software)
