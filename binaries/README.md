@@ -3,5 +3,7 @@ These EXE files are packaged by WINRAR and they will automatically decompress fi
 # About negative report from Anti-Virus softwares
 Only idiots put malicious code into a tool for senior programmers and reverse engineers. There is more information in the "About Digital Signatures" section of "README.MD", which is located in the root directory of this project.
 # All revision history
+### 2nd version: 20190128
+[This is the latest version.](README.md#current-version-20190128)
 ### 1st version: 20181231
 This is the first public version.
