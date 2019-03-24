@@ -48,18 +48,14 @@ Please write E-MAIL in English or German, I only reply to E-MAILs that I am inte
 6. Driver source code: Entire driver source code of WKE.
 
 # [Revision History](/binaries/README.md#all-revision-history)
-### Current Version: 20190128
-Bug fix: symbol related features in memory editor dialog.  
-Bug fix: prompt the status of process and thread in the context menu.  
-New feature: disable CreateProcess / CreateThread / LoadImage / Registry / Process and Thread object callbacks, FS filters.  
-New feature: support drag file to input box dialog (do not need to type input when you need to fill the file path).  
-New feature: highlight hidden drivers and processes.  
-New feature: output all object names to a file.  
-New feature: display NDIS handler functions.  
-New feature: display process command line.  
-New feature: registry value editor dialog.  
-New feature: hide process, hide driver.  
-New feature: unsigned driver loader.  
-New feature: hive file operations.  
+### Current Version: 20190325
+Bug fix: UI optimization (adjust list view spacing from 13px to 16px, display process icon).  
+Bug fix: some code modifications cannot be detected under certain circumstances.  
+Bug fix: some directory cannot be deleted under certain circumstances.  
+New feature: driver uninstallation.  
+New feature: directory replication.  
+New feature: digital signature verification.  
+New feature: file CRC32 and MD5 calculations.  
+New feature: NTFS partition parsing and stream enumeration.  
 ### Revoked Versions: 00000000
 These versions have serious security issues and should not be used anymore.
