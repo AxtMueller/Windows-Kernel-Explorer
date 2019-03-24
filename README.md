@@ -49,9 +49,9 @@ Please write E-MAIL in English or German, I only reply to E-MAILs that I am inte
 
 # [Revision History](/binaries/README.md#all-revision-history)
 ### Current Version: 20190325
-Bug fix: UI optimization (adjust list view spacing from 13px to 16px, display process icon).  
+Bug fix: UI optimization (adjust list view spacing from 13 pixels to 16 pixels, display process icon).  
 Bug fix: some code modifications cannot be detected under certain circumstances.  
-Bug fix: some directory cannot be deleted under certain circumstances.  
+Bug fix: some directories cannot be deleted under certain circumstances.  
 New feature: driver uninstallation.  
 New feature: directory replication.  
 New feature: digital signature verification.  
