@@ -3,7 +3,7 @@ These EXE files are packaged by WINRAR and they will automatically decompress fi
 # About negative report from Anti-Virus softwares
 Only idiots put malicious code into a tool for senior programmers and reverse engineers, because most users only use WKE in test environments, so this kind of behavior is meaningless. [You can get more information in the "About Digital Signatures" section of "README.MD", which is located in the root directory of this project.](../README.md#about-digital-signature)
 # All revision history
-### 4rd version: 20190326
+### 4th version: 20190326
 [This is the latest version.](../README.md#current-version-20190326)
 ### 3rd version: 20190325
 Bug fix: UI optimization (adjust list view spacing from 13 pixels to 16 pixels, display process icon).  
