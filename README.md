@@ -49,7 +49,7 @@ Please write E-MAIL in English or German, I only reply to E-MAILs that I am inte
 
 # [Revision History](/binaries/README.md#all-revision-history)
 ### Current Version: 20190326
-Bug fix: UI fine-tuning.
+Bug fix: UI fine-tuning.  
 Bug fix: Repackage the binaries with the latest data file.
 ### Revoked Versions: 00000000
 These versions have serious security issues and should not be used anymore.
