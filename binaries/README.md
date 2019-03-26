@@ -3,8 +3,17 @@ These EXE files are packaged by WINRAR and they will automatically decompress fi
 # About negative report from Anti-Virus softwares
 Only idiots put malicious code into a tool for senior programmers and reverse engineers, because most users only use WKE in test environments, so this kind of behavior is meaningless. [You can get more information in the "About Digital Signatures" section of "README.MD", which is located in the root directory of this project.](../README.md#about-digital-signature)
 # All revision history
+### 4rd version: 20190326
+[This is the latest version.](../README.md#current-version-20190326)
 ### 3rd version: 20190325
-[This is the latest version.](../README.md#current-version-20190325)
+Bug fix: UI optimization (adjust list view spacing from 13 pixels to 16 pixels, display process icon).  
+Bug fix: some code modifications cannot be detected under certain circumstances.  
+Bug fix: some directories cannot be deleted under certain circumstances.  
+New feature: driver uninstallation.  
+New feature: directory replication.  
+New feature: digital signature verification.  
+New feature: file CRC32 and MD5 calculations.  
+New feature: NTFS partition parsing and stream enumeration.  
 ### 2nd version: 20190128
 Bug fix: symbol related features in memory editor dialog.  
 Bug fix: prompt the status of process and thread in the context menu.  
