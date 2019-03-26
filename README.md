@@ -48,14 +48,8 @@ Please write E-MAIL in English or German, I only reply to E-MAILs that I am inte
 6. Driver source code: Entire driver source code of WKE.
 
 # [Revision History](/binaries/README.md#all-revision-history)
-### Current Version: 20190325
-Bug fix: UI optimization (adjust list view spacing from 13 pixels to 16 pixels, display process icon).  
-Bug fix: some code modifications cannot be detected under certain circumstances.  
-Bug fix: some directories cannot be deleted under certain circumstances.  
-New feature: driver uninstallation.  
-New feature: directory replication.  
-New feature: digital signature verification.  
-New feature: file CRC32 and MD5 calculations.  
-New feature: NTFS partition parsing and stream enumeration.  
+### Current Version: 20190326
+Bug fix: UI fine-tuning.
+Bug fix: Repackage the binaries with the latest data file.
 ### Revoked Versions: 00000000
 These versions have serious security issues and should not be used anymore.
