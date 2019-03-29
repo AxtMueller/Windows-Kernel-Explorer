@@ -48,8 +48,8 @@ Please write E-MAIL in English or German, I only reply to E-MAILs that I am inte
 6. Driver source code: Entire driver source code of WKE.
 
 # [Revision History](/binaries/README.md#all-revision-history)
-### Current Version: 20190326
-Bug fix: UI fine-tuning.  
-Bug fix: Repackage the binaries with the latest data file.
+### Current Version: 20190329
+Bug fix: file operation failure in FAT32 partition.  
+New feature: export all text in the list view to a file.  
 ### Revoked Versions: 00000000
 These versions have serious security issues and should not be used anymore.
