@@ -7,8 +7,18 @@ WKE will automatically download required symbol files if no native support for c
 ### How to customize WKE
 You can customize WKE by editing the configuration file. Currently, you can set the device name and symbolic link name of driver, and altitude of filter. You can also enable kernel-mode and user-mode characteristics randomization to avoid being detected by malware. If you rename the EXE file of WKE, then you need to rename SYS/DAT/INI files together with the same name.
 
-### About digital signature
-Due to I don't have a digital certificate, I have to use the leaked digital certificate from HT SRL to sign drivers of WKE. I use "DSEFIX" as an alternative solution to bypass DSE, you can try to launch WKE with "WKE_dsefix.bat" if WKE loads driver unsuccessfully on your system. Signing files with the HT SRL digital certificate causes a side effect: almost all anti-virus softwares consider files with HT SRL digital signature are viruses, because many hackers use it to sign malwares since 2015. If you don't trust WKE, you can run it in a test environment, or monitor its network activity on your router.
+### About digital signature and negative report from Anti-Virus softwares
+Due to I don't have a digital certificate, I have to use the leaked digital certificate from HT SRL to sign drivers of WKE. I use "DSEFIX" as an alternative solution to bypass DSE, you can try to launch WKE with "WKE_dsefix.bat" if WKE loads driver unsuccessfully on your system. Signing files with the HT SRL digital certificate causes a side effect: almost all anti-virus softwares consider files with HT SRL digital signature are viruses, because many hackers use it to sign malwares since 2015. Only idiots put malicious code into a tool for senior programmers and reverse engineers, because most users only use WKE in test environments, so this kind of behavior is meaningless.
+
+### About loading driver unsuccessfully
+##### If WKE displays "unable to load driver", there may be the following reasons:
+1. Secure boot is enabled.  
+2. You are not running WKE as administrator.  
+3. Anti-Virus software prevents the driver from loading.  
+##### Solutions:
+1. Disable secure boot.  
+2. Run WKE as administrator.  
+3. Add WKE to the whitelist of Anti-Virus software.  
 
 ### About open source
 It is a bit awkward, so I say straightforwardly: I don't plan to share the source code of this tool, but I might share some source code of test programs that related to this tool.
@@ -37,9 +47,9 @@ In order to optimize the page load speed in low quality network environments, I 
 4. Author of DSEFIX (I use it as an alternative solution to load driver)
 
 # Cooperation
-#### E-MAIL: AxtMueller#gmx.de (Replace # with @)
+### E-MAIL: AxtMueller#gmx.de (Replace # with @)
 Please write E-MAIL in English or German, I only reply to E-MAILs that I am interested in.
-#### Provided services:
+### Provided services:
 1. Feature customization: Add the features you need to WKE.
 2. Binary customization: Modify obvious characteristics of WKE and remove all of my personal information in WKE.
 3. Implant link: Implant link in WKE on "About" page, all users will see it when main dialog appears.
