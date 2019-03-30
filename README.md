@@ -11,7 +11,7 @@ You can customize WKE by editing the configuration file. Currently, you can set 
 Due to I don't have a digital certificate, I have to use the leaked digital certificate from HT SRL to sign drivers of WKE. I use "DSEFIX" as an alternative solution to bypass DSE, you can try to launch WKE with "WKE_dsefix.bat" if WKE loads driver unsuccessfully on your system. Signing files with the HT SRL digital certificate causes a side effect: almost all anti-virus softwares consider files with HT SRL digital signature are viruses, because many hackers use it to sign malwares since 2015. Only idiots put malicious code into a tool for senior programmers and reverse engineers, because most users only use WKE in test environments, so this kind of behavior is meaningless.
 
 ### About loading driver unsuccessfully
-##### If WKE displays "unable to load driver", there may be the following reasons:
+##### If WKE prompts "unable to load driver", there may be the following reasons:
 1. Secure boot is enabled.  
 2. You are not running WKE as administrator.  
 3. Anti-Virus software prevents the driver from loading.  
