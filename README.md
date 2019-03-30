@@ -25,13 +25,13 @@ It is a bit awkward, so I say straightforwardly: I don't plan to share the sourc
 
 # Main Features
 1. Process management (Module, Thread, Handle, Memory, Window, Windows Hook, etc.)
-2. File management
-3. Registry management
+2. File management (NTFS partition analysis, low-level disk access, etc.)
+3. Registry management and HIVE file operation
 4. Kernel-mode callback, filter, timer, NDIS blocks and WFP callout functions management
 5. Kernel-mode hook scanning (MSR, EAT, IAT, CODE PATCH, SSDT, SSSDT, IDT, IRP, OBJECT)
 6. User-mode hook scanning (Kernel Callback Table, EAT, IAT, CODE PATCH)
 7. Memory editor and symbol parser (it looks like a simplified version of WINDBG)
-8. Protect process, hide/protect/redirect file or directory, protect registry and falsify registry data
+8. Hide driver, hide/protect process, hide/protect/redirect file or directory, protect registry and falsify registry data
 9. Path modification for driver, process and process module
 10. Enable/disable some obnoxious Windows components
 
