@@ -18,7 +18,7 @@ Due to I don't have a digital certificate, I have to use the leaked digital cert
 ##### Solutions:
 1. Disable secure boot.  
 2. Run WKE as administrator.  
-3. Add WKE to the whitelist of Anti-Virus software.  
+3. Add the files of WKE to the white list of Anti-Virus software.  
 
 ### About open source
 It is a bit awkward, so I say straightforwardly: I don't plan to share the source code of this tool, but I might share some source code of test programs that related to this tool.
