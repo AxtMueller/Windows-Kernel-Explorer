@@ -1,5 +1,5 @@
-# Current Version: 20190325
-The latest supported version of Windows 10 is 17763.
+# Current Version: 20190601
+The latest supported version of Windows 10 is 18362.
 
 # How to update data file
 1. Download the latest [data file](https://raw.githubusercontent.com/AxtMueller/Windows-Kernel-Explorer/master/data/WindowsKernelExplorer.dat).
