@@ -21,7 +21,7 @@ Due to I don't have a digital certificate, I have to use the leaked digital cert
 3. Add the files of WKE to the white list of Anti-Virus software.  
 
 ### About open source
-It is a bit awkward, so I say straightforwardly: I don't plan to share the source code of this tool, but I might share some source code of test programs that related to this tool.
+It is a bit awkward, so I say straightforwardly: I don't plan to share the source code of this tool, but I may share some source code of test programs that associated with this tool.
 
 # Main Features
 1. Process management (Module, Thread, Handle, Memory, Window, Windows Hook, etc.)
