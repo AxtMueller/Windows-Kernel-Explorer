@@ -35,15 +35,14 @@ It is a bit awkward, so I say straightforwardly: I don't plan to share the sourc
 9. Path modification for driver, process and process module
 10. Enable/disable some obnoxious Windows components
 
-# Screenshots
+# [Screenshots](/screenshots/README.md)
 In order to optimize the page load speed in low quality network environments, I only placed one picture on this page.
 ![image](https://raw.githubusercontent.com/AxtMueller/Windows-Kernel-Explorer/master/screenshots/mainmenu.png)
-[Click this link to view all screenshots (click middle button to open the page in a new window).](/screenshots/README.md)
 
 # Thanking List
 1. Team of WIN64AST (I referenced the UI design and many features of this software)
 2. Team of PCHunter (I referenced some features of this software)
-3. Team of ProcessHacker (I studied the source code of this software, but I didn’t use it in my project)
+3. Team of ProcessHacker (I studied the source code of this software, but I didn't use it in my project)
 4. Author of DSEFIX (I use it as an alternative solution to load driver)
 
 # Cooperation
