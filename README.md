@@ -48,7 +48,7 @@ In order to optimize the page load speed in low quality network environments, I 
 # Cooperation
 ### E-MAIL: AxtMueller#gmx.de (Replace # with @)
 Please write E-MAIL in English or German, I only reply to E-MAILs that I am interested in.
-### Provided services:
+### Paid services:
 1. Feature customization: Add the features you need to WKE.
 2. Binary customization: Modify obvious characteristics of WKE and remove all of my personal information in WKE.
 3. Implant link: Implant link in WKE on "About" page, all users will see it when main dialog appears.
