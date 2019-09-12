@@ -23,6 +23,9 @@ Because I don't have a digital certificate, I have to use the leaked digital cer
 ### About open source
 It is a bit awkward, so I say straightforwardly: I don't plan to share the source code of this tool, but I may share some source code of test programs that associated with this tool.
 
+### About WKE can be detected by EasyAntiCheat
+I got too much SPAM about this issue. I must declare: WKE is not designed to bypass any anti-cheat solution. If you need to use WKE in a specfic environment, please order "binary customization" service.
+
 # Main Features
 1. Process management (Module, Thread, Handle, Memory, Window, Windows Hook, etc.)
 2. File management (NTFS partition analysis, low-level disk access, etc.)
