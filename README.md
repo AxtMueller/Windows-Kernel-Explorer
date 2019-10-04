@@ -48,9 +48,10 @@ In order to optimize the page load speed in low quality network environments, I 
 3. Team of ProcessHacker (I studied the source code of this software, but I didn't use it in my project)
 4. Author of DSEFIX (I use it as an alternative solution to load driver)
 
-# Cooperation
+# Contact
 ### E-MAIL: AxtMueller#gmx.de (Replace # with @)
-Please write E-MAIL in English or German, I only reply to E-MAILs that I am interested in.
+If you find any bugs, have any suggestions or would like to purchase a paid service, please let me know.  
+You'd better write E-MAIL in English or German, I only reply to E-MAILs that I am interested in.
 ### Paid services:
 1. Feature customization: Add the features you need to WKE.
 2. Binary customization: Modify obvious characteristics of WKE and remove all of my personal information in WKE.
