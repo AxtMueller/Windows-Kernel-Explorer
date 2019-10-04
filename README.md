@@ -23,8 +23,8 @@ Because I don't have a digital certificate, I have to use the leaked digital cer
 ### About open source
 It is a bit awkward, so I say straightforwardly: I don't plan to share the source code of this tool, but I may share some source code of test programs that associated with this tool.
 
-### About WKE can be detected by EasyAntiCheat
-I got too much SPAM about this issue. I must declare: WKE is not designed to bypass any anti-cheat solution. If you need to use WKE in a specfic environment, please order "binary customization" service.
+### About WKE can be detected by anti-cheat solutions
+I received too much SPAM about this issue. I must declare: WKE is not designed to bypass any anti-cheat solution. If you need to use WKE in a specfic environment, please order "binary customization" service.
 
 # Main Features
 1. Process management (Module, Thread, Handle, Memory, Window, Windows Hook, etc.)
@@ -50,8 +50,8 @@ In order to optimize the page load speed in low quality network environments, I 
 
 # Contact
 ### E-MAIL: AxtMueller#gmx.de (Replace # with @)
-If you find any bugs, have any suggestions or would like to purchase a paid service, please let me know.  
-You'd better write E-MAIL in English or German, I only reply to E-MAILs that I am interested in.
+1. If you find bugs, have constructive suggestions or would like to purchase a paid service, please let me know.  
+2. You'd better write E-MAIL in English or German, I only reply to E-MAILs that I am interested in.
 ### Paid services:
 1. Feature customization: Add the features you need to WKE.
 2. Binary customization: Modify obvious characteristics of WKE and remove all of my personal information in WKE.
