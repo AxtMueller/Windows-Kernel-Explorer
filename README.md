@@ -61,8 +61,10 @@ In order to optimize the page load speed in low quality network environments, I 
 6. Driver source code: Entire driver source code of WKE.
 
 # [Revision History](/binaries/README.md#all-revision-history)
-### Current Version: 20190329
-Bug fix: file operation failure in FAT32 partition.  
-New feature: export all text in the list view to a file.  
+### Current Version: 20191104
+Bug fix: UI fine-tuning (menu, listview, etc).  
+Bug fix: Optimize the "export to file" feature.  
+Bug fix: Failed to operate files and registry keys that contain NULL character.  
+New feature: Map physical memory (Memory Editor).  
 ### Revoked Versions: 00000000
 These versions have serious security issues and should not be used anymore.
