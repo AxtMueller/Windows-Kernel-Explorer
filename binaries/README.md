@@ -2,8 +2,13 @@
 These EXE files are packaged by WINRAR and they will automatically decompress files after execution. You can rename these EXE files to ZIP files and decompress ZIP files manually.
 
 # All revision history
+### 7th version: 20191110
+[This is the latest version.](../README.md#current-version-20191110)
 ### 6th version: 20191104
-[This is the latest version.](../README.md#current-version-20191104)
+Bug fix: UI fine-tuning (menu, listview, etc).  
+Bug fix: Optimize the "export to file" feature.  
+Bug fix: Failed to operate files and registry keys that contain NULL character.  
+New feature: Map physical memory (Memory Editor).  
 ### 5th version: 20190329
 Bug fix: file operation failure in FAT32 partition.  
 New feature: export all text in the list view to a file.  
