@@ -1,5 +1,5 @@
 # Introduction
-These EXE files are packaged by WINRAR and they will automatically decompress files after execution. You can rename these EXE files to ZIP files and decompress ZIP files manually. [(Download WKE32)](https://github.com/AxtMueller/Windows-Kernel-Explorer/raw/master/binaries/WKE32.exe) / [(Download WKE64)](https://github.com/AxtMueller/Windows-Kernel-Explorer/raw/master/binaries/WKE64.exe)   
+These EXE files ([WKE32](https://github.com/AxtMueller/Windows-Kernel-Explorer/raw/master/binaries/WKE32.exe) / [WKE64](https://github.com/AxtMueller/Windows-Kernel-Explorer/raw/master/binaries/WKE64.exe)) are packaged by WINRAR and they will automatically decompress files after execution. You can rename these EXE files to ZIP files and decompress ZIP files manually.   
 
 # All revision history
 ### 7th version: 20191110
@@ -7,7 +7,7 @@ These EXE files are packaged by WINRAR and they will automatically decompress fi
 ### 6th version: 20191104
 Bug fix: UI fine-tuning (menu, listview, etc).  
 Bug fix: Optimize the "export to file" feature.  
-Bug fix: Failed to operate files and registry keys that contain NULL character.  
+Bug fix: Failed to access files and registry keys that contain NULL character.  
 New feature: Map physical memory (Memory Editor).  
 ### 5th version: 20190329
 Bug fix: file operation failure in FAT32 partition.  
