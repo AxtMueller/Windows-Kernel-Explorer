@@ -59,7 +59,7 @@ In order to optimize the page load speed in low quality network environments, I 
 6. Driver source code: Entire driver source code of WKE.
 
 # [Revision History](/binaries/README.md#all-revision-history)
-### Current Version: 20191110
-Bug fix: Some features of Memory Editor crash the program.  
+### Current Version: 20200107
+Bug fix: Inputbox works improperly on the latest Windows 10.  
 ### Revoked Versions: 00000000
 These versions have serious security issues and should not be used anymore.
