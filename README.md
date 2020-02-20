@@ -51,12 +51,12 @@ In order to optimize the page load speed in low quality network environments, I 
 1. If you find bugs, have constructive suggestions or would like to purchase a paid service, please let me know.  
 2. You'd better write E-MAIL in English or German, I only reply to E-MAILs that I am interested in.
 ### Paid services:
-1. Feature customization: Add the features you need to WKE.
-2. Binary customization: Modify obvious characteristics of WKE and remove all of my personal information in WKE.
-3. Implant link: Implant link in WKE on "About" page, all users will see it when main dialog appears.
-4. Specific feature separation: Copy source code of specific feature to a separate project.
-5. Driver static library: It contains most of main features of WKE.
-6. Driver source code: Entire driver source code of WKE.
+1. Binary customization: Modify obvious characteristics of WKE and remove all of my personal information in WKE.
+2. Implant link: Implant link in WKE on "About" page, all users will see it when main dialog appears.
+3. Specific feature separation: Copy source code of specific feature to a separate project.
+4. Driver static library: It contains most of main features of WKE.
+5. Driver source code: Entire driver source code of WKE.
+6. Software customization: Write the user-mode program or kernel-mode driver according to user needs. THIS SERVICE IS ONLY AVAILABLE TO USERS WHO EVER PURCHASED THE ABOVE SERVICES.
 
 # [Revision History](/binaries/README.md#all-revision-history)
 ### Current Version: 20200107
