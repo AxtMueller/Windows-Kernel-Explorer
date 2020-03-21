@@ -58,7 +58,7 @@ In order to optimize the page load speed in low quality network environments, I 
 5. Driver source code: Entire driver source code of WKE.
 6. Software customization: Write the user-mode program or kernel-mode driver according to user needs. THIS SERVICE IS ONLY AVAILABLE TO USERS WHO EVER PURCHASED THE ABOVE SERVICES.
 
-# Other Projects
+# My Other Projects
 A programmable and rootkit-like Windows remote access tool: [Windows Batch Deployment](https://github.com/AxtMueller/Windows-Batch-Deployment)
 
 # [Revision History](/binaries/README.md#all-revision-history)
