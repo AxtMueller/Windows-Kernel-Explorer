@@ -8,7 +8,7 @@ WKE will automatically download required symbol files if the current system is n
 You can customize WKE by editing the configuration file. Currently, you can specify the device name and symbolic link name of driver, and altitude of filter. You can also enable kernel-mode and user-mode characteristics randomization to avoid being detected by malware. If you rename the EXE file of WKE, then you need to rename SYS/DAT/INI files together with the same name.
 
 ### About digital signature and negative comment from Anti-Virus software
-Because I don't have a digital certificate, I have to use the leaked digital certificate from HT SRL to sign drivers of WKE. I use "DSEFIX" as an alternative solution to bypass DSE, you can try to launch WKE with "WKE_dsefix.bat" if WKE loads driver unsuccessfully on your system. Signing files with the HT SRL digital certificate has a side effect: almost all anti-virus software infer files with HT SRL digital signature are viruses, because many hackers use it to sign malwares since 2015. Only idiots implant malicious code into a tool for experienced programmers and reverse engineers, because most users only use WKE in test environments, this kind of behavior is meaningless.
+Because I don't have a digital certificate, I have to use the leaked digital certificate from HT SRL to sign drivers of WKE. I use "DSEFIX" as an alternative solution to bypass DSE, you can try to launch WKE with "WKE_dsefix.bat" if WKE loads driver unsuccessfully on your system. Signing files with the HT SRL digital certificate has a side effect: almost all Anti-Virus software infer files with HT SRL digital signature are viruses, because many hackers use it to sign malwares since 2015. Only idiots implant malicious code into a tool for experienced programmers and reverse engineers, because most users only use WKE in test environments, this kind of behavior is meaningless.
 
 ### About loading driver unsuccessfully
 ##### If WKE prompts "unable to load driver", there may be the following reasons:
@@ -21,8 +21,8 @@ Because I don't have a digital certificate, I have to use the leaked digital cer
 ### About open source
 It is a bit awkward, so I say straightforwardly: I don't plan to share the source code of this tool, but I may share some source code of test programs that associated with this tool.
 
-### About WKE can be detected by anti-cheat solutions
-I received too much SPAM about this issue. I must declare: WKE is not designed to bypass any anti-cheat solution. If you need to use WKE in a specfic environment, please order "binary customization" service.
+### About WKE can be detected by Anti-Cheat solutions
+I received too many SPAM of this issue. I must declare: WKE is not designed to bypass any Anti-Cheat solution. If you need to use WKE in a specfic environment, please order "binary customization" service.
 
 # Main Features
 1. Process management (Module, Thread, Handle, Memory, Window, Windows Hook, etc.)
