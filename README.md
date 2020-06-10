@@ -2,7 +2,7 @@
 Windows Kernel Explorer (you can simply call it as "WKE") is a free but powerful kernel research tool. It supports from Windows XP to Windows 10 (32-bit and 64-bit). Compared to WIN64AST and PCHunter, WKE can run on the latest Windows 10 without updating binary files.
 
 ### How WKE works on the latest Windows 10
-WKE will automatically download required symbol files if the current system is not supported natively, 90% of the features will work after this step. For some needed data that doesn't exist in symbol files, WKE will try to retrieve them from the DAT file (when new Windows 10 releases, I will upload the newest DAT file to GitHub). If WKE cannot access the internet, 50% of the features will still work. Currently, native support is available from Windows XP to Windows 10 RS3, Windows 10 from RS4 to 20H1 are fully supported by parsing symbol files and DAT file.
+WKE will automatically download required symbol files if the current system is not supported natively, 90% of the features will work after this step. For some needed data that doesn't exist in symbol files, WKE will try to retrieve them from the DAT file (when new Windows 10 releases, I will upload a new DAT file to GitHub). If WKE cannot access the internet, 50% of the features will still work. Currently, native support is available from Windows XP to Windows 10 RS3, Windows 10 from RS4 to 20H1 are fully supported by parsing symbol files and DAT file.
 
 ### How to customize WKE
 You can customize WKE by editing the configuration file. Currently, you can specify the device name and symbolic link name of driver, and altitude of filter. You can also enable kernel-mode and user-mode characteristics randomization to avoid being detected by malware. If you rename the EXE file of WKE, then you need to rename SYS/DAT/INI files together with the same name.
@@ -65,7 +65,7 @@ A programmable and rootkit-like Windows remote access tool: [Windows Batch Deplo
 ### Current Version: 20200610
 Bug fix: Thread entry point cannot be displayed properly in some versions of Windows 7.  
 Bug fix: LoadImageNotify cannot be enumerated in some versions of Windows 8.  
-New feature: Output device stack to a text file.  
+New feature: Output device stacks to a text file.  
 New feature: Add a description for GDT items.  
 ### Revoked Versions: 00000000
 These versions have serious security issues and should not be used anymore.
