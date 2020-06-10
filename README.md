@@ -65,7 +65,7 @@ A programmable and rootkit-like Windows remote access tool: [Windows Batch Deplo
 ### Current Version: 20200610
 Bug fix: Thread entry point cannot be displayed properly in some versions of Windows 7.  
 Bug fix: LoadImageNotify cannot be enumerated in some versions of Windows 8.  
-New feature: Output device stacks to a text file.  
+New feature: Output tree view of device stacks to a text file.  
 New feature: Add a description for GDT items.  
 ### Revoked Versions: 00000000
 These versions have serious security issues and should not be used anymore.
