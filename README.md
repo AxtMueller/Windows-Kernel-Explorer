@@ -58,9 +58,6 @@ In order to optimize the page load speed in low quality network environments, I 
 5. Driver source code: Entire driver source code of WKE.
 6. Software customization: Write the user-mode program or kernel-mode driver according to user needs. THIS SERVICE IS ONLY AVAILABLE TO USERS WHO EVER PURCHASED THE ABOVE SERVICES.
 
-# My Other Projects
-A programmable and rootkit-like Windows remote access tool: [Windows Batch Deployment](https://github.com/AxtMueller/Windows-Batch-Deployment)
-
 # [Revision History](/binaries/README.md#all-revision-history)
 ### Current Version: 20200610
 Bug fix: Thread entry point cannot be displayed properly in some versions of Windows 7.  
