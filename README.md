@@ -50,6 +50,8 @@ In order to optimize the page load speed in low quality network environments, I 
 ### E-MAIL: AxtMueller#gmx.de (Replace # with @)
 1. If you find bugs, have constructive suggestions or would like to purchase a paid service, please let me know.  
 2. You'd better write E-MAIL in English or German, I only reply to E-MAILs that I am interested in.
+3. In order to disclose as little personal information as possible (IP address, online time, etc.), I do not use instant messaging. Just write what you want in the E-MAIL.
+4. In order to reduce the impact of the Internet on real life, I also do not use Facebook, Twitter, etc. Please don't ask me for such information via E-MAIL.
 ### Paid services:
 1. Binary customization: Modify obvious characteristics of WKE and remove all of my personal information in WKE.
 2. Implant link: Implant link in WKE on "About" page, all users will see it when main dialog appears.
