@@ -1,7 +1,7 @@
 # Introduction
 These EXE files ([WKE32](https://github.com/AxtMueller/Windows-Kernel-Explorer/raw/master/binaries/WKE32.exe) / [WKE64](https://github.com/AxtMueller/Windows-Kernel-Explorer/raw/master/binaries/WKE64.exe)) are packaged by WINRAR and they will automatically decompress files after execution. You can rename these EXE files to ZIP files and decompress ZIP files manually.   
 
-# Preparation before downloading
+# Turn off Microsoft SmartScreen and Windows Defender
 Because Microsoft SmartScreen and Windows Defender may prevent downloading files that containing suspicious digital signatures, you may have to turn off Microsoft SmartScreen and Windows Defender before downloading. If you cannot access the downloaded files, or files cannot be downloaded, paste the following code into a text editor, save the code as a batch file and execute it. After restarting, re-open this page and download again.
 ```
 reg add "HKLM\SOFTWARE\Policies\Microsoft\Windows Defender" /v DisableAntiSpyware /t REG_DWORD /d 1 /f
