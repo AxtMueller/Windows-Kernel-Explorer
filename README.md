@@ -58,7 +58,7 @@ In order to optimize the page load speed in low quality network environments, I 
 3. Specific feature separation: Copy source code of specific feature to a separate project.
 4. Driver static library: It contains most of main features of WKE. [WBD also uses this static library.](https://github.com/AxtMueller/Windows-Batch-Deployment)
 5. Driver source code: Entire driver source code of WKE.
-6. Software customization: Write the user-mode program or kernel-mode driver according to user needs. This service is only available to customers who have purchased any of the above services.
+6. Software customization: Write the user-mode program or kernel-mode driver according to your needs. This service is only available to customers who have purchased any of the above services.
 
 # [Revision History](/binaries/README.md#all-revision-history)
 ### Current Version: 20200610
