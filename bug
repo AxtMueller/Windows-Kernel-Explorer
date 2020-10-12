@@ -1,0 +1,160 @@
+2: kd> !analyze -v 
+Connected to Windows 10 18362 x64 target at (Mon Oct 12 16:53:55.426 2020 (UTC + 8:00)), ptr64 TRUE
+*** Unable to resolve unqualified symbol in Bp expression 'FileRule'.
+Loading Kernel Symbols
+...............................................................
+................................................................
+................................................................
+.................
+Loading User Symbols
+
+Loading unloaded module list
+.........
+*** Unable to resolve unqualified symbol in Bp expression 'FileRule'.
+
+************* Symbol Loading Error Summary **************
+Module name            Error
+SharedUserData         No error - symbol load deferred
+
+You can troubleshoot most symbol related issues by turning on symbol loading diagnostics (!sym noisy) and repeating the command that caused symbols to be loaded.
+You should also verify that your symbol search path (.sympath) is correct.
+*******************************************************************************
+*                                                                             *
+*                        Bugcheck Analysis                                    *
+*                                                                             *
+*******************************************************************************
+
+DRIVER_IRQL_NOT_LESS_OR_EQUAL (d1)
+An attempt was made to access a pageable (or completely invalid) address at an
+interrupt request level (IRQL) that is too high.  This is usually
+caused by drivers using improper addresses.
+If kernel debugger is available get stack backtrace.
+Arguments:
+Arg1: ffff9c05c4ed1320, memory referenced
+Arg2: 00000000000000ff, IRQL
+Arg3: 0000000000000029, value 0 = read operation, 1 = write operation
+Arg4: fffff80111c41401, address which referenced memory
+
+Debugging Details:
+------------------
+
+*** Unable to resolve unqualified symbol in Bp expression 'FileRule'.
+*** Unable to resolve unqualified symbol in Bp expression 'FileRule'.
+
+KEY_VALUES_STRING: 1
+
+    Key  : Analysis.CPU.Sec
+    Value: 3
+
+    Key  : Analysis.DebugAnalysisProvider.CPP
+    Value: Create: 8007007e on CORREY
+
+    Key  : Analysis.DebugData
+    Value: CreateObject
+
+    Key  : Analysis.DebugModel
+    Value: CreateObject
+
+    Key  : Analysis.Elapsed.Sec
+    Value: 436
+
+    Key  : Analysis.Memory.CommitPeak.Mb
+    Value: 275
+
+    Key  : Analysis.System
+    Value: CreateObject
+
+
+BUGCHECK_CODE:  d1
+
+BUGCHECK_P1: ffff9c05c4ed1320
+
+BUGCHECK_P2: ff
+
+BUGCHECK_P3: 29
+
+BUGCHECK_P4: fffff80111c41401
+
+WRITE_ADDRESS:  ffff9c05c4ed1320 Paged pool
+
+PROCESS_NAME:  System
+
+TRAP_FRAME:  ffff9403f711e5a0 -- (.trap 0xffff9403f711e5a0)
+NOTE: The trap frame does not contain all registers.
+Some register values may be zeroed or incorrect.
+rax=000000000000005c rbx=0000000000000000 rcx=ffff9403f711e7d2
+rdx=ffff9c05c4ed1320 rsi=0000000000000000 rdi=0000000000000000
+rip=fffff80111c41401 rsp=ffff9403f711e730 rbp=ffff9403f711e7d0
+ r8=0000000000000006  r9=0000000000000000 r10=ffffb280a9298fec
+r11=0000000000000010 r12=0000000000000000 r13=0000000000000000
+r14=0000000000000000 r15=0000000000000000
+iopl=0         nv up di ng nz na po nc
+WindowsKernelExplorer+0x41401:
+fffff801`11c41401 668902          mov     word ptr [rdx],ax ds:ffff9c05`c4ed1320=005c
+Resetting default scope
+
+STACK_TEXT:  
+ffff9403`f711dcb8 fffff804`746bed92 : ffff9c05`c4ed1320 00000000`00000003 ffff9403`f711de20 fffff804`74527c50 : nt!DbgBreakPointWithStatus
+ffff9403`f711dcc0 fffff804`746be487 : 00000000`00000003 ffff9403`f711de20 fffff804`745ed0a0 00000000`000000d1 : nt!KiBugCheckDebugBreak+0x12
+ffff9403`f711dd20 fffff804`745d8a97 : ffff8007`34d63002 ffff8007`00000002 ffff8007`328349a0 fffff804`745dfb5f : nt!KeBugCheck2+0x947
+ffff9403`f711e420 fffff804`745ea829 : 00000000`0000000a ffff9c05`c4ed1320 00000000`000000ff 00000000`00000029 : nt!KeBugCheckEx+0x107
+ffff9403`f711e460 fffff804`745e6b69 : 00000000`00000004 00000000`00000005 00000000`00000005 00000000`00000006 : nt!KiBugCheckDispatch+0x69
+ffff9403`f711e5a0 fffff801`11c41401 : ffff8007`328349a0 ffff9403`f711e7d0 00000000`00000000 ffff8007`29679080 : nt!KiPageFault+0x469
+ffff9403`f711e730 fffff801`11c4ef47 : ffff8007`3334ea10 00000000`00000080 fffff801`11c00000 ffff9403`00000002 : WindowsKernelExplorer+0x41401
+ffff9403`f711e780 fffff804`74534235 : ffff8007`32887380 ffff8007`32887380 fffff801`11c4ee64 ffff8007`3334ea10 : WindowsKernelExplorer+0x4ef47
+ffff9403`f711ec10 fffff804`745dff98 : fffff804`734d9180 ffff8007`32887380 fffff804`745341e0 00000000`00001cff : nt!PspSystemThreadStartup+0x55
+ffff9403`f711ec60 00000000`00000000 : ffff9403`f711f000 ffff9403`f7119000 00000000`00000000 00000000`00000000 : nt!KiStartSystemThread+0x28
+
+
+SYMBOL_NAME:  WindowsKernelExplorer+41401
+
+MODULE_NAME: WindowsKernelExplorer
+
+IMAGE_NAME:  WindowsKernelExplorer.sys
+
+STACK_COMMAND:  .thread ; .cxr ; kb
+
+BUCKET_ID_FUNC_OFFSET:  41401
+
+FAILURE_BUCKET_ID:  AV_VRF_WindowsKernelExplorer!unknown_function
+
+OS_VERSION:  10.0.18362.1
+
+BUILDLAB_STR:  19h1_release
+
+OSPLATFORM_TYPE:  x64
+
+OSNAME:  Windows 10
+
+FAILURE_ID_HASH:  {6163847c-d8a3-8da4-aee4-f56502a5c64b}
+
+Followup:     MachineOwner
+---------
+
+2: kd> lmvm WindowsKernelExplorer
+Browse full module list
+start             end                 module name
+fffff801`11c00000 fffff801`11f79000   WindowsKernelExplorer   (no symbols)           
+    Loaded symbol image file: WindowsKernelExplorer.sys
+    Image path: \??\C:\Users\ADMINI~1\AppData\Local\Temp\WindowsKernelExplorer.sys
+    Image name: WindowsKernelExplorer.sys
+    Browse all global symbols  functions  data
+    Timestamp:        Wed Jun 10 05:33:42 2020 (5EE00036)
+    CheckSum:         00365A6B
+    ImageSize:        00379000
+    Translations:     0000.04b0 0000.04e4 0409.04b0 0409.04e4
+    Information from resource tables:
+2: kd> lm vm nt
+Browse full module list
+start             end                 module name
+fffff804`74416000 fffff804`74ecb000   nt         (pdb symbols)          c:\symbols\ntkrnlmp.pdb\37692615609E73CA069E65B06B532BB41\ntkrnlmp.pdb
+    Loaded symbol image file: ntkrnlmp.exe
+    Image path: ntkrnlmp.exe
+    Image name: ntkrnlmp.exe
+    Browse all global symbols  functions  data
+    Image was built with /Brepro flag.
+    Timestamp:        91BEDFD7 (This is a reproducible build file hash, not a timestamp)
+    CheckSum:         00985631
+    ImageSize:        00AB5000
+    Translations:     0000.04b0 0000.04e4 0409.04b0 0409.04e4
+    Information from resource tables:
