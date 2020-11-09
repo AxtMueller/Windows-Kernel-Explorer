@@ -12,10 +12,10 @@ Because I don't have a digital certificate, I have to use the leaked digital cer
 
 ### About loading driver unsuccessfully
 ##### If WKE prompts "unable to load driver", there may be the following reasons:
-1. Device Guard is enabled.  
+1. HVCI is enabled.  
 2. Anti-Virus software prevents the driver from loading.  
 ##### Solutions:
-1. Disable Device Guard or Secure Boot.  
+1. [Disable HVCI](https://docs.microsoft.com/en-us/windows/security/threat-protection/device-guard/enable-virtualization-based-protection-of-code-integrity#how-to-turn-off-hvci) or Secure Boot.  
 2. Add the files of WKE to the white list of Anti-Virus software.  
 
 ### About open source
@@ -44,7 +44,6 @@ In order to optimize the page load speed in low quality network environments, I 
 1. Team of WIN64AST (I referenced the UI design and many features of this software)
 2. Team of PCHunter (I referenced some features of this software)
 3. Team of ProcessHacker (I studied the source code of this software, but I didn't use it in my project)
-4. Author of DSEFIX (I use it as an alternative solution to load driver)
 
 # Contact
 ### E-MAIL: AxtMueller#gmx.de (Replace # with @)
