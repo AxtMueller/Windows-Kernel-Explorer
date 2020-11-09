@@ -1,4 +1,4 @@
-# Current Version: 20200603
+# Current Version: 20201111
 The latest supported version of Windows 10 is 19041.
 
 # How to update data file
