@@ -22,7 +22,7 @@ shutdown /f /r /t 0
 
 # All revision history
 ### 10th version: 20201111
-[This is the latest version.](../README.md#current-version-20201111)
+[This is the latest version.](../README.md#revision-history)
 ### 9th version: 20200610
 Bug fix: Thread entry point cannot be displayed properly in some versions of Windows 7.  
 Bug fix: LoadImageNotify cannot be enumerated in some versions of Windows 8.  
