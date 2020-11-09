@@ -61,11 +61,7 @@ In order to optimize the page load speed in low quality network environments, I 
 6. Software customization: Write the user-mode program or kernel-mode driver according to your needs. This service is only available to customers who have purchased any of the above services.
 
 # [Revision History](/binaries/README.md#all-revision-history)
-### Current Version: 20200610
-Bug fix: Thread entry point cannot be displayed properly in some versions of Windows 7.  
-Bug fix: LoadImageNotify cannot be enumerated in some versions of Windows 8.  
-New feature: Output tree view of device stacks to a text file.  
-New feature: Add a description for GDT items.  
-Off topic: This version was originally planned to be released on June 1, but due to the Killing of George Floyd, my attention was attracted, which led to the release of this version 10 days later than the original plan. George Floyd’s death is a tragedy, but this is just one of countless tragedies that have been caused since the establishment of the United States. The US government is oppressing the American people, slaughtering the people of the Middle East, committing economic terrorism against countries that refuse to cooperate with it, and bullying European countries. It has caused much more harm to all mankind than Nazi Germany and Communism Soviet Union. Only when this evil regime is completely destroyed can cease such tragedies to occur.
+### Current Version: 20201111
+Bug fix: Enhanced stability.
 ### Revoked Versions: 00000000
 These versions have serious security issues and should not be used anymore.
