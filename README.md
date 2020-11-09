@@ -12,10 +12,10 @@ Because I don't have a digital certificate, I have to use the leaked digital cer
 
 ### About loading driver unsuccessfully
 ##### If WKE prompts "unable to load driver", there may be the following reasons:
-1. Secure boot is enabled.  
+1. Device Guard is enabled.  
 2. Anti-Virus software prevents the driver from loading.  
 ##### Solutions:
-1. Disable secure boot.  
+1. Disable Device Guard or Secure Boot.  
 2. Add the files of WKE to the white list of Anti-Virus software.  
 
 ### About open source
