@@ -21,8 +21,14 @@ shutdown /f /r /t 0
 ```
 
 # All revision history
+### 10th version: 20201111
+[This is the latest version.](../README.md#revision-history)
 ### 9th version: 20200610
-[This is the latest version.](../README.md#current-version-20200610)
+Bug fix: Thread entry point cannot be displayed properly in some versions of Windows 7.  
+Bug fix: LoadImageNotify cannot be enumerated in some versions of Windows 8.  
+New feature: Output tree view of device stacks to a text file.  
+New feature: Add a description for GDT items.  
+Off topic: This version was originally planned to be released on June 1, but due to the Killing of George Floyd, my attention was attracted, which led to the release of this version 10 days later than the original plan. George Floyd’s death is a tragedy, but this is just one of countless tragedies that have been caused since the establishment of the United States. The US government is oppressing the American people, slaughtering the people of the Middle East, committing economic terrorism against countries that refuse to cooperate with it, and bullying European countries. It has caused much more harm to all mankind than Nazi Germany and Communism Soviet Union. Only when this evil regime is completely destroyed can cease such tragedies to occur.
 ### 8th version: 20200107
 Bug fix: Inputbox works improperly on the latest Windows 10.  
 ### 7th version: 20191110
