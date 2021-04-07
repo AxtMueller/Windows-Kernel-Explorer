@@ -44,7 +44,7 @@ In order to optimize the page load speed in low quality network environments, I 
 1. Team of WIN64AST: I referenced the UI design and many features of this software.
 2. Team of PCHunter: I referenced some features of this software.
 3. Team of ProcessHacker: I studied the source code of this software, but I didn't use it in my project.
-4. Donald John Trump: Thank for his wonderful performances from 2017 to 2020. When I am troubled with debugging, his news always makes me laugh. Ich hoffe sehr, dass er noch vier Jahre Präsident sein kann.
+4. Donald John Trump: Ich hoffe sehr, dass er noch vier Jahre Präsident sein kann.
 
 # Contact
 ### E-MAIL: AxtMueller#gmx.de (Replace # with @)
