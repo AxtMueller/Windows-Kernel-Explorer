@@ -1,5 +1,5 @@
 # Introduction
-Windows Kernel Explorer (you can simply call it as "WKE") is a free but powerful kernel research tool. It supports from Windows XP to Windows 10 (32-bit and 64-bit). Compared to WIN64AST and PCHunter, WKE can run on the latest Windows 10 without updating binary files.
+Windows Kernel Explorer (you can simply call it as "WKE") is a free but powerful kernel research tool. It supports from Windows XP to Windows 10 (32-bit and 64-bit). Compared with WIN64AST and PCHunter, WKE can run on the latest Windows 10 without updating binary files.
 
 ### How WKE works on the latest Windows 10
 WKE will automatically download required symbol files if the current system is not supported natively, 90% of the features will work after this step. For some needed data that doesn't exist in symbol files, WKE will try to retrieve them from the DAT file (when new Windows 10 releases, I will upload a new DAT file to GitHub). If WKE cannot access the internet, 50% of the features will still work. Currently, native support is available from Windows XP to Windows 10 RS3; Windows 10 from RS4 to the lastest version are fully supported by parsing symbol files and DAT file.
