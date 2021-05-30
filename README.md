@@ -62,9 +62,9 @@ In order to optimize the page load speed in low quality network environments, I 
 
 # [Revision History](/binaries/README.md#all-revision-history)
 ### Current Version: 20210530
-Bug fix: Enhanced stability.
-Bug fix: UI fine-tuning. 
-New feature: Prohibit the process from running again after termination
-New feature: Window Detective
+Bug fix: Enhanced stability.  
+Bug fix: UI fine-tuning.  
+New feature: Prohibit the process from running again after termination.  
+New feature: Window Detective.
 ### Revoked Versions: 00000000
 These versions have serious security issues and should not be used anymore.
