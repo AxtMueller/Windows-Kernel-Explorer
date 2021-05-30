@@ -56,7 +56,7 @@ In order to optimize the page load speed in low quality network environments, I 
 1. Binary customization: Modify obvious characteristics and remove copyright information, this will prevent some softwares from detecting WKE based on the program characteristics. The customized version of WKE can be run on 64-bit Windows with HVCI enabled. 
 2. Implant link: Implant link on "About" page, all users will see it when main dialog appears.
 3. Specific feature separation: Copy source code of specific feature to a separate project.
-4. Driver static library: It contains most of main features. [WBD also uses this static library.](https://github.com/AxtMueller/Windows-Batch-Deployment)
+4. Driver static library: It contains most of main features. [WBD is using this static library.](https://github.com/AxtMueller/Windows-Batch-Deployment)
 5. Driver source code: Entire driver source code.
 6. Software customization: Write the user-mode program or kernel-mode driver according to your needs. This service is only available to customers who have purchased any of the above services.
 
