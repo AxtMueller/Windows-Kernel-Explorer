@@ -53,7 +53,7 @@ In order to optimize the page load speed in low quality network environments, I 
 3. In order to disclose as little personal information as possible (IP address, online time, etc.), I do not use instant messaging. Just write what you want in the E-MAIL.
 4. In order to reduce the impact of the Internet on real life, I also do not use Facebook, Twitter, etc. Please don't ask me for such information via E-MAIL.
 ### Paid services:
-1. Binary customization: Modify obvious characteristics of WKE and remove all of my personal information in WKE.
+1. Binary customization: Modify obvious characteristics of WKE and remove all of my personal information in WKE. This service is suitable if some softwares detect WKE based on the program characteristics of WKE. The customized version of WKE can be run on 64-bit Windows with HVCI enabled.
 2. Implant link: Implant link in WKE on "About" page, all users will see it when main dialog appears.
 3. Specific feature separation: Copy source code of specific feature to a separate project.
 4. Driver static library: It contains most of main features of WKE. [WBD also uses this static library.](https://github.com/AxtMueller/Windows-Batch-Deployment)
