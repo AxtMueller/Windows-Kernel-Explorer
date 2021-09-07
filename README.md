@@ -1,4 +1,4 @@
-# About the program cannot be used on the latest WINDOWS 10: 
+## [Temporary] About the program cannot be used on the latest WINDOWS 10: 
 After installing KB5004237, WINDOWS internally blacklisted "HT SRL" certificate. If you want to use the program, you have to sign the driver with your own certificate. When I release next version, I will use a new certificate from an enthusiastic fan. As to why I did not update the program as soon as possible: I am following international news recently, I am excited about the Afghan people successfully drove out of the American invaders and I am also saddened by the fact that American troops are still stationed on German territory. The United States is not an ally of the German people, it is just an ally of corrupt German politicians. Therefore, I need some time to better my mood. I will update the program after the official version of Windows 11 is released.
 
 # Introduction
