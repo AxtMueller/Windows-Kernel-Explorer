@@ -1,3 +1,6 @@
+# About the program cannot be used on the latest WINDOWS 10: 
+After installing KB5004237, WINDOWS internally blacklisted "HT SRL" certificate. If you want to use the program, you have to sign the driver with your own certificate. When I release next version, I will use a new certificate from an enthusiastic fan.
+
 # Introduction
 Windows Kernel Explorer (you can simply call it as "WKE") is a free but powerful kernel research tool. It supports from Windows XP to Windows 10 (32-bit and 64-bit). Compared with WIN64AST and PCHunter, WKE can run on the latest Windows 10 without updating binary files.
 
