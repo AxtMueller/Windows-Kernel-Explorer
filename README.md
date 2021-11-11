@@ -8,7 +8,7 @@ WKE will automatically download required symbol files if the current system is n
 You can customize WKE by editing the configuration file. Currently, you can specify the device name and symbolic link name of driver, and altitude of filter. You can also enable kernel-mode and user-mode characteristics randomization to avoid being detected by malware. If you rename the EXE file of WKE, you must synchronously rename SYS/DAT/INI files with the same name as the EXE file.
 
 ### About digital signature and negative comment from Anti-Virus software
-Because I don't have a digital certificate, I have to use the leaked digital certificate from HT SRL to sign drivers of WKE. Signing files with the HT SRL digital certificate has a side effect: almost all Anti-Virus software infer files with HT SRL digital signature are malware, because many hackers use it to sign malwares since 2015. Only idiots implant malicious code into a tool for experienced programmers and reverse engineers, because most users only use WKE in test environments, this kind of behavior is meaningless.
+Because I don't have a digital certificate, I have to use a leaked digital certificate to sign drivers of WKE. Signing files with leaked digital certificates has a side effect: many Anti-Virus softwares infer files with leaked digital signature are dangerous, because many hackers use leaked digital certificates to sign malwares. At present, I have given up using the notorious HT SRL digital certificate and switched to another digital certificate.
 
 ### About loading driver unsuccessfully
 ##### If WKE prompts "unable to load driver", there may be the following reasons:
