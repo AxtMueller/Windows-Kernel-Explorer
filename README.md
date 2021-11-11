@@ -63,6 +63,6 @@ In order to optimize the page load speed in low quality network environments, I 
 # [Revision History](/binaries/README.md#all-revision-history)
 ### Current Version: 20211111
 Bug fix: Enhanced stability.  
-New feature: Fully Supported Windows 11.
+New feature: Fully supported Windows 11.
 ### Revoked Versions: 00000000
 These versions have serious security issues and should not be used anymore.
