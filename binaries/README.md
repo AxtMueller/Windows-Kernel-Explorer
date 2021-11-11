@@ -21,8 +21,13 @@ shutdown /f /r /t 0
 ```
 
 # All revision history
-### 11th version: 20210530
+### 12th version: 20211111
 [This is the latest version.](../README.md#revision-history)
+### 11th version: 20210530
+Bug fix: Enhanced stability.  
+Bug fix: UI fine-tuning.  
+New feature: Prohibit process from running again after termination.  
+New feature: Get the window information at the cursor.
 ### 10th version: 20201111
 Bug fix: Enhanced stability.
 ### 9th version: 20200610
