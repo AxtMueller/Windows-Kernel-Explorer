@@ -1,11 +1,8 @@
-## [Temporary] About the program cannot be used on the latest WINDOWS 10: 
-After installing KB5004237, WINDOWS internally blacklisted "HT SRL" certificate. If you want to use the program, you have to sign the driver with your own certificate. When I release next version, I will use a new certificate from an enthusiastic fan. As to why I did not update the program as soon as possible: I am following 2021 German federal election and international news recently, I am excited about the Afghan people successfully drove out of the American invaders and I am also saddened by the fact that American troops are still stationed on German territory. The United States is not an ally of the German people, it is just an ally of corrupt German politicians. Therefore, I need some time to better my mood. I will update the program after the official version of Windows 11 is released.
-
 # Introduction
-Windows Kernel Explorer (you can simply call it as "WKE") is a free but powerful kernel research tool. It supports from Windows XP to Windows 10 (32-bit and 64-bit). Compared with WIN64AST and PCHunter, WKE can run on the latest Windows 10 without updating binary files.
+Windows Kernel Explorer (you can simply call it as "WKE") is a free but powerful kernel research tool. It supports from Windows XP to Windows 11 (32-bit and 64-bit). Compared with WIN64AST and PCHunter, WKE can run on the latest Windows 11 without updating binary files.
 
-### How does WKE work on the latest Windows 10
-WKE will automatically download required symbol files if the current system is not supported natively, 90% of the features will work after this step. For some needed data that doesn't exist in symbol files, WKE will try to retrieve them from the DAT file (when new Windows 10 releases, I will upload a new DAT file to GitHub). If WKE cannot access the internet, 50% of the features will still work. Currently, native support is available from Windows XP to Windows 10 RS3; Windows 10 from RS4 to the lastest version are fully supported by parsing symbol files and DAT file.
+### How does WKE work on the latest Windows 11
+WKE will automatically download required symbol files if the current system is not supported natively, 90% of the features will work after this step. For some needed data that doesn't exist in symbol files, WKE will try to retrieve them from the DAT file (when new Windows 10 releases, I will upload a new DAT file to GitHub). If WKE cannot access the internet, 50% of the features will still work. Currently, native support is available from Windows XP to Windows 10 RS3; Windows 10 from RS4 to the lastest version Windows 11 are fully supported by parsing symbol files and DAT file.
 
 ### How to customize WKE
 You can customize WKE by editing the configuration file. Currently, you can specify the device name and symbolic link name of driver, and altitude of filter. You can also enable kernel-mode and user-mode characteristics randomization to avoid being detected by malware. If you rename the EXE file of WKE, you must synchronously rename SYS/DAT/INI files with the same name as the EXE file.
@@ -64,10 +61,8 @@ In order to optimize the page load speed in low quality network environments, I 
 6. Software customization: Write the user-mode program or kernel-mode driver according to your needs. This service is only available to customers who have purchased any of the above services.
 
 # [Revision History](/binaries/README.md#all-revision-history)
-### Current Version: 20210530
+### Current Version: 20211111
 Bug fix: Enhanced stability.  
-Bug fix: UI fine-tuning.  
-New feature: Prohibit process from running again after termination.  
-New feature: Get the window information at the cursor.
+New feature: Support Windows 11.
 ### Revoked Versions: 00000000
 These versions have serious security issues and should not be used anymore.
