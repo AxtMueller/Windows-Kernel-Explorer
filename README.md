@@ -15,7 +15,7 @@ Because I don't have a digital certificate, I have to use a leaked digital certi
 1. HVCI is enabled.  
 2. Anti-Virus software prevents the driver from loading.  
 ##### Solutions:
-1. [Disable HVCI](https://docs.microsoft.com/en-us/windows/security/threat-protection/device-guard/enable-virtualization-based-protection-of-code-integrity#how-to-turn-off-hvci) or Secure Boot.  
+1. [Disable HVCI](https://docs.microsoft.com/en-us/windows/security/threat-protection/device-guard/enable-virtualization-based-protection-of-code-integrity#how-to-turn-off-hvci) or disable Secure Boot.  
 2. Add the files of WKE to the white list of Anti-Virus software.  
 
 ### About open source
