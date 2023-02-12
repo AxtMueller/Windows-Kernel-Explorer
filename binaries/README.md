@@ -21,8 +21,11 @@ shutdown /f /r /t 0
 ```
 
 # All revision history
-### 12th version: 20211111
+### 13th version: 20230213
 [This is the latest version.](../README.md#revision-history)
+### 12th version: 20211111
+Bug fix: Enhanced stability.
+New feature: Fully supported Windows 11.
 ### 11th version: 20210530
 Bug fix: Enhanced stability.  
 Bug fix: UI fine-tuning.  
