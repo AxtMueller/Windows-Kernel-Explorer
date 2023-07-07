@@ -1,4 +1,4 @@
-# EMERGENCY NOTIFICATION
+# !!!EMERGENCY NOTIFICATION!!!
 #### WKE has a bug when checking for updates due to the new GITHUB web page. This bug causes WKE to exit abnormally after displaying an error message. Temporary solutions are as follows:  
 1. Disconnect from the Internet before running WKE.  
 2. Add WKE to the firewall blacklist to prevent WKE from connecting to the Internet.
