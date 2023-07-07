@@ -66,5 +66,3 @@ Bug fix: ADS operation failure on volume root directory.
 New feature: File / folder layout viewer.  
 New feature: Disk hexadecimal editor.  
 New feature: Show progress when copying or deleting folder.  
-### Revoked Versions: 00000000
-These versions have serious security issues and should not be used anymore.
