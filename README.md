@@ -2,7 +2,8 @@
 #### WKE has a bug when checking for updates due to the new GITHUB web page. This bug causes WKE to exit abnormally after displaying an error message. Temporary solutions are as follows:  
 1. Disconnect from the Internet before running WKE.  
 2. Add WKE to the firewall blacklist to prevent WKE from connecting to the Internet.
-##### This bug will be fixed in the next version.  
+
+This bug will be fixed in the next version.  
 
 # Introduction
 Windows Kernel Explorer (you can simply call it as "WKE") is a free but powerful kernel research tool. It supports from Windows XP to Windows 11. Compared with WIN64AST and PCHunter, WKE can run on the latest Windows without updating binary files. This means that even if I do not update WKE, or you do not have the latest version of WKE, old WKE can still run on new Windows and most features will function normally.
