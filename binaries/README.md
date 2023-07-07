@@ -1,3 +1,10 @@
+# EMERGENCY NOTIFICATION
+#### WKE has a bug when checking for updates due to the new GITHUB web page. This bug causes WKE to exit abnormally after displaying an error message. Temporary solutions are as follows:  
+1. Disconnect from the Internet before running WKE.  
+2. Add WKE to the firewall blacklist to prevent WKE from connecting to the Internet.
+
+This bug will be fixed in the next version.  
+
 # Introduction
 These EXE files ([WKE32](https://github.com/AxtMueller/Windows-Kernel-Explorer/raw/master/binaries/WKE32.exe) / [WKE64](https://github.com/AxtMueller/Windows-Kernel-Explorer/raw/master/binaries/WKE64.exe)) are packaged by WINRAR and they will automatically decompress files after execution. You can rename these EXE files to ZIP files and decompress ZIP files manually.   
 
