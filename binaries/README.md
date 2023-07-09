@@ -6,7 +6,7 @@
 4. Place this batch file in the directory that you extract from "WKE32.EXE" or "WKE64.EXE", and use it to launch WKE.
 ```
 copy %windir%\System32\drivers\etc\hosts %windir%\System32\drivers\etc\hosts.bak
-attrib -r -a -h -s %windir%\System32\drivers\etc\hosts
+attrib -a -h -r -s %windir%\System32\drivers\etc\hosts
 echo 127.0.0.1 github.com > %windir%\System32\drivers\etc\hosts
 ::YOU MAY NEED TO CHANGE THE FILE NAME IN THE NEXT LINE
 WindowsKernelExplorer.exe
