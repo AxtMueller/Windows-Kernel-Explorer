@@ -3,7 +3,15 @@
 1. Disconnect from the Internet before running WKE.  
 2. Add WKE to the firewall blacklist to prevent WKE from connecting to the Internet.
 3. Add "127.0.0.1 github.com" to ["hosts" file](https://en.wikipedia.org/wiki/Hosts_(file)) before running WKE, and remove this line of text after running WKE.
-
+```
+copy %windir%\System32\drivers\etc\hosts %windir%\System32\drivers\etc\hosts.bak
+attrib -r -a -h -s %windir%\System32\drivers\etc\hosts
+echo 127.0.0.1 github.com > %windir%\System32\drivers\etc\hosts
+::YOU MAY NEED TO CHANGE THE FILE NAME IN THE NEXT LINE
+WindowsKernelExplorer.exe
+del %windir%\System32\drivers\etc\hosts
+ren %windir%\System32\drivers\etc\hosts.bak hosts
+```
 This bug will be fixed in the next version.  
 
 # Introduction
