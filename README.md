@@ -1,6 +1,6 @@
 ### Temporary: a known bug that prevents WKE from running
 https://github.com/AxtMueller/Windows-Kernel-Explorer/tree/master/binaries#emergency-notification
-
+***
 # Introduction
 Windows Kernel Explorer (you can simply call it as "WKE") is a free but powerful kernel research tool. It supports from Windows XP to Windows 11. Compared with WIN64AST and PCHunter, WKE can run on the latest Windows without updating binary files. This means that even if I do not update WKE, or you do not have the latest version of WKE, old WKE can still run on new Windows and most features will function normally.
 
