@@ -8,6 +8,7 @@
 copy %windir%\System32\drivers\etc\hosts %windir%\System32\drivers\etc\hosts.bak
 attrib -a -h -r -s %windir%\System32\drivers\etc\hosts
 echo 127.0.0.1 github.com > %windir%\System32\drivers\etc\hosts
+ping 127.0.0.1
 ::YOU MAY NEED TO CHANGE THE FILE NAME IN THE NEXT LINE
 WindowsKernelExplorer.exe
 del %windir%\System32\drivers\etc\hosts
