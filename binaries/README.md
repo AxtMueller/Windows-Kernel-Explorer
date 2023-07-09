@@ -1,8 +1,9 @@
 # !!!EMERGENCY NOTIFICATION!!!
 #### WKE has a bug when checking for updates due to the new GitHub web page. This bug causes WKE to exit abnormally after displaying an error message. Temporary solutions are as follows:  
-1. Disconnect from the Internet before running WKE.  
+1. Disconnect from the Internet before using WKE.  
 2. Add WKE to the firewall blacklist to prevent WKE from connecting to the Internet.
-3. Add "127.0.0.1 github.com" to ["hosts" file](https://en.wikipedia.org/wiki/Hosts_(file)) before running WKE, and remove this line of text after running WKE.
+3. Add "127.0.0.1 github.com" to ["hosts" file](https://en.wikipedia.org/wiki/Hosts_(file)) before using WKE, and remove this line of text after using WKE.
+4. Place this batch file in the directory that you extract from "WKE32.EXE" or "WKE64.EXE", and use it to launch WKE.
 ```
 copy %windir%\System32\drivers\etc\hosts %windir%\System32\drivers\etc\hosts.bak
 attrib -r -a -h -s %windir%\System32\drivers\etc\hosts
