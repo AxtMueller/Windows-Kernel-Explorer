@@ -2,6 +2,7 @@
 #### WKE has a bug when checking for updates due to the new GITHUB web page. This bug causes WKE to exit abnormally after displaying an error message. Temporary solutions are as follows:  
 1. Disconnect from the Internet before running WKE.  
 2. Add WKE to the firewall blacklist to prevent WKE from connecting to the Internet.
+3. Add "127.0.0.1 github.com" to ["hosts" file](https://en.wikipedia.org/wiki/Hosts_(file)) before running WKE, and remove this line of text after running WKE.
 
 This bug will be fixed in the next version.  
 
