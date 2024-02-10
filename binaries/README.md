@@ -46,8 +46,13 @@ shutdown /f /r /t 0
 ```
 
 # All revision history
-### 13th version: 20230213
+### 14th version: 20240210
 [This is the latest version.](../README.md#revision-history)
+### 13th version: 20230213
+Bug fix: ADS operation failure on volume root directory.  
+New feature: File / folder layout viewer.  
+New feature: Disk hexadecimal editor.  
+New feature: Show progress when copying or deleting folder.  
 ### 12th version: 20211111
 Bug fix: Enhanced stability.  
 New feature: Fully supported Windows 11.  
