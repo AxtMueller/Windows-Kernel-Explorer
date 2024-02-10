@@ -63,6 +63,6 @@ In order to optimize the page load speed in low quality network environments, I 
 # [Revision History](/binaries/README.md#all-revision-history)
 ### Current Version: 20240210
 Bug fix: Update checking failure.  
-New feature: Windows 11 22631 is supported now.
+New feature: Windows 11 22631 is supported.
 ### Revoked Versions: 00000000
 These versions have serious security issues and should not be used anymore.
