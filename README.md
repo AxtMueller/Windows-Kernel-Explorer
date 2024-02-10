@@ -63,7 +63,7 @@ In order to optimize the page load speed in low quality network environments, I 
 6. Software customization: Write the user-mode program or kernel-mode driver according to your needs. This service is only available to customers who have purchased any of the above services.
 
 # [Revision History](/binaries/README.md#all-revision-history)
-### Current Version: 20230213
+### Current Version: 20240210
 Bug fix: ADS operation failure on volume root directory.  
 New feature: File / folder layout viewer.  
 New feature: Disk hexadecimal editor.  
