@@ -64,9 +64,7 @@ In order to optimize the page load speed in low quality network environments, I 
 
 # [Revision History](/binaries/README.md#all-revision-history)
 ### Current Version: 20240210
-Bug fix: ADS operation failure on volume root directory.  
-New feature: File / folder layout viewer.  
-New feature: Disk hexadecimal editor.  
-New feature: Show progress when copying or deleting folder.  
+Bug fix: Update checking failure.  
+New feature: Windows 11 22631 is supported now.
 ### Revoked Versions: 00000000
 These versions have serious security issues and should not be used anymore.
