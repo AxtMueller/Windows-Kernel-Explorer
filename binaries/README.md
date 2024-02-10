@@ -1,21 +1,3 @@
-# !!!EMERGENCY NOTIFICATION!!!
-#### WKE has a bug when checking for updates due to the new GitHub web page. This bug causes WKE to exit abnormally after displaying an error message. Temporary solutions are as follows:  
-1. Disconnect from the Internet before using WKE.  
-2. Add WKE to the firewall blacklist to prevent WKE from connecting to the Internet.
-3. Add "127.0.0.1 github.com" to ["hosts" file](https://en.wikipedia.org/wiki/Hosts_(file)) before using WKE, and remove this line of text after using WKE.
-4. Place this batch file in the directory that you extract from "WKE32.EXE" or "WKE64.EXE", and use it to launch WKE.
-```
-copy %windir%\System32\drivers\etc\hosts %windir%\System32\drivers\etc\hosts.bak
-attrib -a -h -r -s %windir%\System32\drivers\etc\hosts
-echo 127.0.0.1 github.com > %windir%\System32\drivers\etc\hosts
-ping 127.0.0.1
-::YOU MAY NEED TO CHANGE THE FILE NAME IN THE NEXT LINE
-WindowsKernelExplorer.exe
-del %windir%\System32\drivers\etc\hosts
-ren %windir%\System32\drivers\etc\hosts.bak hosts
-```
-This bug will be fixed in the next version.  
-
 # Introduction
 These EXE files ([WKE32](https://github.com/AxtMueller/Windows-Kernel-Explorer/raw/master/binaries/WKE32.exe) / [WKE64](https://github.com/AxtMueller/Windows-Kernel-Explorer/raw/master/binaries/WKE64.exe)) are packaged by WINRAR and they will automatically decompress files after execution. You can rename these EXE files to ZIP files and decompress ZIP files manually.   
 
