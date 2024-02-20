@@ -21,11 +21,11 @@ NTFS parsing is turned on by default on systems from Windows XP to Windows 10. O
 ### About digital signature and negative comment from Anti-Virus software
 Because I don't have a digital certificate, I have to use a leaked digital certificate to sign drivers of WKE. Signing files with leaked digital certificates has a side effect: many Anti-Virus softwares infer files with leaked digital signature are dangerous, because many hackers use leaked digital certificates to sign malwares. At present, I have given up using the notorious HT SRL digital certificate and switched to another digital certificate.
 
-### About open source
-It is a bit awkward, so I say straightforwardly: I don't plan to share the source code of this tool, but I may share some source code of test programs that associated with this tool.
-
 ### About WKE can be detected by Anti-Cheat solutions
 I received too many SPAM of this issue. I must declare: WKE is not designed to bypass any Anti-Cheat solution. If you need to use WKE in a specfic environment, please order "binary customization" service.
+
+### About open source
+It is a bit awkward, so I say straightforwardly: I don't plan to share the source code of this tool, but I may share some source code of test programs that associated with this tool.
 
 # Main Features
 1. Process management (Module, Thread, Handle, Memory, Window, Windows Hook, etc.)
