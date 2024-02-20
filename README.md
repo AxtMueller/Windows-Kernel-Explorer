@@ -7,25 +7,23 @@ WKE automatically downloads requisite symbol files if the current system is not 
 ### How to customize WKE
 You can customize WKE by editing the configuration file. Currently, you can specify the device name and symbolic link name of driver, and altitude of filter. You can also enable kernel-mode and user-mode characteristics randomization to avoid being detected by malware. If you rename the EXE file of WKE, you must synchronously rename SYS/DAT/INI files with the same name as the EXE file.
 
-### About loading driver unsuccessfully
-##### If WKE prompts "unable to load driver", there may be the following reasons:
-1. HVCI is enabled.  
-2. Anti-Virus software prevents the driver from loading.  
-##### Solutions:
-1. [Disable HVCI](https://docs.microsoft.com/en-us/windows/security/threat-protection/device-guard/enable-virtualization-based-protection-of-code-integrity#how-to-turn-off-hvci) or disable Secure Boot.  
-2. Add the files of WKE to the white list of Anti-Virus software.  
+### Known issues
+#### About loading driver unsuccessfully
+If WKE prompts "unable to load driver", there may be the following reasons:
+###### 1. HVCI is enabled.  
+###### 2. Anti-Virus software prevents the driver from loading.  
+Solutions:
+###### 1. [Disable HVCI](https://docs.microsoft.com/en-us/windows/security/threat-protection/device-guard/enable-virtualization-based-protection-of-code-integrity#how-to-turn-off-hvci) or disable Secure Boot.  
+###### 2. Add the files of WKE to the white list of Anti-Virus software.  
 
-### About deleting files or folders unsuccessfully
+#### About deleting files or folders unsuccessfully
 NTFS parsing is turned on by default on systems from Windows XP to Windows 10. On some systems, parsing NTFS will fail, causing deletion of files or folders to fail. In this case, you must turn off "NTFS parsing" in "Software Options" to delete files and folders.  
 
-### About digital signature and negative comment from Anti-Virus software
+#### About digital signature and negative comment from Anti-Virus software
 Because I don't have a digital certificate, I have to use a leaked digital certificate to sign drivers of WKE. Signing files with leaked digital certificates has a side effect: many Anti-Virus softwares infer files with leaked digital signature are dangerous, because many hackers use leaked digital certificates to sign malwares. At present, I have given up using the notorious HT SRL digital certificate and switched to another digital certificate.
 
-### About WKE can be detected by Anti-Cheat solutions
+#### About WKE can be detected by Anti-Cheat solutions
 I received too many SPAM of this issue. I must declare: WKE is not designed to bypass any Anti-Cheat solution. If you need to use WKE in a specfic environment, please order "binary customization" service.
-
-### About open source
-It is a bit awkward, so I say straightforwardly: I don't plan to share the source code of this tool, but I may share some source code of test programs that associated with this tool.
 
 # Main Features
 1. Process management (Module, Thread, Handle, Memory, Window, Windows Hook, etc.)
