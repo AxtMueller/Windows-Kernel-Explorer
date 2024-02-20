@@ -19,8 +19,8 @@ Solutions:
 #### About deleting files or folders unsuccessfully
 NTFS parsing is turned on by default on systems from Windows XP to Windows 10. On some systems, parsing NTFS will fail, causing deletion of files or folders to fail. In this case, you must turn off "NTFS parsing" in "Software Options" to delete files and folders.  
 
-#### About digital signature and negative comment from Anti-Virus software
-Because I don't have a digital certificate, I have to use a leaked digital certificate to sign drivers of WKE. Signing files with leaked digital certificates has a side effect: many Anti-Virus softwares infer files with leaked digital signature are dangerous, because many hackers use leaked digital certificates to sign malwares. At present, I have given up using the notorious HT SRL digital certificate and switched to another digital certificate.
+#### About digital signature and negative comments from Anti-Virus software
+Because I don't have a digital certificate, I have to use a leaked digital certificate to sign drivers of WKE. Signing files with leaked digital certificates has a side effect: many Anti-Virus softwares infer files with leaked digital signature are suspicious, because many hackers use leaked digital certificates to sign malwares. At present, I have given up using the notorious HT SRL digital certificate and switched to another digital certificate.
 
 #### About WKE can be detected by Anti-Cheat solutions
 I received too many SPAM of this issue. I must declare: WKE is not designed to bypass any Anti-Cheat solution. If you need to use WKE in a specfic environment, please order "binary customization" service.
