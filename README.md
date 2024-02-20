@@ -15,7 +15,7 @@ You can customize WKE by editing the configuration file. Currently, you can spec
 1. [Disable HVCI](https://docs.microsoft.com/en-us/windows/security/threat-protection/device-guard/enable-virtualization-based-protection-of-code-integrity#how-to-turn-off-hvci) or disable Secure Boot.  
 2. Add the files of WKE to the white list of Anti-Virus software.  
 
-### About deleting files / folders unsuccessfully
+### About deleting files or folders unsuccessfully
 NTFS parsing is turned on by default on systems from Windows XP to Windows 10. On some systems, parsing NTFS will fail, causing deletion of files or folders to fail. In this case, you must turn off "NTFS parsing" in "Software Options" to delete files and folders.  
 
 ### About digital signature and negative comment from Anti-Virus software
