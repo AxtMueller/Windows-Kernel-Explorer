@@ -8,7 +8,7 @@ WKE automatically downloads requisite symbol files if the current system is not 
 You can customize WKE by editing the configuration file. Currently, you can specify the device name and symbolic link name of driver, and altitude of filter. You can also enable kernel-mode and user-mode characteristics randomization to avoid being detected by malware. If you rename the EXE file of WKE, you must synchronously rename SYS/DAT/INI files with the same name as the EXE file.
 
 ### About digital signature and negative comments from Anti-Virus software
-Because I don't have a digital certificate, I have to use a leaked digital certificate to sign drivers of WKE. Signing files with leaked digital certificates has a side effect: many Anti-Virus software infer files with leaked digital signature are suspicious, because many hackers use leaked digital certificates to sign malware. I don't care about any negative comments from any Anti-Virus software, the rule is simple: if you don't trust a program, just don't use it.
+Because I don't have a digital certificate, I have to use a leaked digital certificate to sign my drivers. Signing files with leaked digital certificates has a side effect: many Anti-Virus software infer files with leaked digital signature are suspicious, because many hackers use leaked digital certificates to sign malware. I don't care about any negative comments from any Anti-Virus software, the rule is simple: if you don't trust a program, just don't use it.
 
 ### About WKE can be detected by Anti-Cheat solutions
 WKE is not designed to bypass any Anti-Cheat solution. If you want to use WKE in a specfic environment, please order "binary customization" service.
