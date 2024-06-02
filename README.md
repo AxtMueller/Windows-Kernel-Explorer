@@ -53,12 +53,10 @@ In order to optimize the page load speed in low quality network environments, I 
 3. In order to disclose as little personal information as possible (IP address, online time, etc.), I do not use instant messaging. Just write what you want in the E-MAIL.
 4. In order to reduce the impact of the Internet on real life, I also do not use Facebook, Twitter, etc. Please don't ask me for such information via E-MAIL.
 ### Paid services:
-1. Binary customization: The customized version of WKE does not have copyright information and digital signature, this will prevent some software from detecting WKE based on the program characteristics. I can add your customized copyright information and a digital signature that is different from the public version if you need. The customized version of WKE is without VMP, so it can be run on 64-bit Windows with HVCI enabled. 
-2. Implant link: Implant link on "About" page, all users will see it when main dialog appears.
-3. Specific feature separation: Copy source code of specific feature to a separate project.
-4. Driver static library: It contains most of main features. [WBD is using this static library.](https://github.com/AxtMueller/Windows-Batch-Deployment)
-5. Driver source code: Entire driver source code.
-6. Software customization: Write the user-mode program or kernel-mode driver according to your needs. This service is only available to customers who have purchased any of the above services.
+1. Binary customization: You will get a customized version of WKE without copyright information and digital signature, this will prevent some software from detecting WKE based on the program characteristics. Add your customized copyright information and a digital signature different from the public version is also possible. The customized version of WKE is without VMP, so it can be run on 64-bit Windows with HVCI enabled. 
+2. Partial source code acquisition: You will get the source code of specific features that you are interested in.
+3. Complete source code acquisition: You will get the complete source code of WKE.
+4. Software production: Write the user-mode program or kernel-mode driver according to your needs. This service is only available to customers who have purchased any of the above services.
 
 # [Revision History](/binaries/README.md#all-revision-history)
 ### Current Version: 20240210
