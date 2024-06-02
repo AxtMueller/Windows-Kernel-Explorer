@@ -55,7 +55,7 @@ In order to optimize the page load speed in low quality network environments, I 
 ### Paid services:
 1. Binary customization: You will get a customized version of WKE without copyright information and digital signature, this will prevent some software from detecting WKE based on the program characteristics. Add your customized copyright information and sign files with a different certificate than the public version is also possible. The customized version of WKE is without VMP, so it can be run on 64-bit Windows with HVCI enabled. 
 2. Partial source code acquisition: You will get the source code of specific features that you are interested in.
-3. Complete source code acquisition: You will get the complete source code of WKE.
+3. Complete source code acquisition: You will get the complete source code for both EXE and SYS.
 4. Software production: Write the user-mode program or kernel-mode driver according to your needs. This service is only available to customers who have purchased any of the above services.
 
 # [Revision History](/binaries/README.md#all-revision-history)
