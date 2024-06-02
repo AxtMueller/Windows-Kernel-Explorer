@@ -19,7 +19,7 @@ If WKE prompts "unable to load driver", there may be the following reasons:
 ###### 2. Anti-Virus software prevents the driver from loading.  
 Solutions:
 ###### 1. [Disable HVCI](https://docs.microsoft.com/en-us/windows/security/threat-protection/device-guard/enable-virtualization-based-protection-of-code-integrity#how-to-turn-off-hvci) or disable Secure Boot.  
-###### 2. Add the files of WKE to the white list of Anti-Virus software.  
+###### 2. Add the files of WKE to the whitelist of the Anti-Virus software.  
 
 ### About deleting files or folders unsuccessfully
 NTFS parsing is turned on by default on systems from Windows XP to Windows 10. On some systems, parsing NTFS fails and causes deletion of files or folders to fail. In this case, you must turn off "NTFS parsing" in "Software Options" to delete files and folders.  
