@@ -48,10 +48,8 @@ In order to optimize the page load speed in low quality network environments, I 
 
 # Contact
 ### E-MAIL: AxtMueller#gmx.de (Replace # with @)
-1. If you find bugs, have constructive suggestions or would like to purchase a paid service, please let me know.  
-2. You'd better write E-MAIL in English or German, I only reply to E-MAILs that I am interested in.
-3. In order to disclose as little personal information as possible (IP address, online time, etc.), I do not use instant messaging. Just write what you want in the E-MAIL.
-4. In order to reduce the impact of the Internet on real life, I also do not use Facebook, Twitter, etc. Please don't ask me for such information via E-MAIL.
+1. If you find bugs, have constructive suggestions or would like to purchase a paid service, please let me know. You'd better write E-MAIL in English or German, I only reply to E-MAILs that I am interested in. 
+2. In order to disclose as little personal information as possible (IP address, online time, etc.), I do not use instant messaging and social media. Please write what you want in the E-MAIL.
 ### Paid services:
 1. Binary customization: You will get a customized version of WKE without copyright information and digital signature, this will prevent some software from detecting WKE based on the program characteristics. Add your customized copyright information and sign files with a different certificate than the public version is also possible. The customized version of WKE is without VMP, so it can be run on 64-bit Windows with HVCI enabled. 
 2. Partial source code acquisition: You will get the source code of specific features that you are interested in.
