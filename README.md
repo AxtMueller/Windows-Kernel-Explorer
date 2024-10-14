@@ -57,8 +57,8 @@ In order to optimize the page load speed in low quality network environments, I 
 4. Software production: Write the user-mode program or kernel-mode driver according to your needs. This service is only available to customers who have purchased any of the above services.
 
 # [Revision History](/binaries/README.md#all-revision-history)
-### Current Version: 20240210
-Bug fix: Update checking failure.  
-New feature: Windows 11 22631 is supported.
+### Current Version: 20241019
+Bug fix: Corrected some spelling errors.  
+New feature: Windows 11 26100 is supported.
 ### Revoked Versions: 00000000
 These versions have serious security issues and should not be used anymore.
