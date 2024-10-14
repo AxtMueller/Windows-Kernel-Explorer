@@ -1,5 +1,5 @@
-# Current Version: 20240210
-The latest supported version of Windows 11 is 22631, the latest supported version of Windows 10 is 19045.
+# Current Version: 20241019
+The latest supported version of Windows is 26100.
 
 # How to update data file
 1. Download the latest [data file](https://raw.githubusercontent.com/AxtMueller/Windows-Kernel-Explorer/master/data/WindowsKernelExplorer.dat).   
