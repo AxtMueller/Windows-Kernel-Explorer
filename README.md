@@ -58,7 +58,7 @@ In order to optimize the page load speed in low quality network environments, I 
 
 # [Revision History](/binaries/README.md#all-revision-history)
 ### Current Version: 20241019
-Bug fix: Corrected some spelling errors.  
+Bug fix: Corrected some spelling mistakes.  
 New feature: Windows 11 26100 is supported.
 ### Revoked Versions: 00000000
 These versions have serious security issues and should not be used anymore.
