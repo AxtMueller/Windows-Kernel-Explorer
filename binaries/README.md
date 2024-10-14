@@ -28,8 +28,11 @@ shutdown /f /r /t 0
 ```
 
 # All revision history
-### 14th version: 20240210
+### 15th version: 20241019
 [This is the latest version.](../README.md#revision-history)
+### 14th version: 20240210
+Bug fix: Update checking failure.  
+New feature: Windows 11 22631 is supported.
 ### 13th version: 20230213
 Bug fix: ADS operation failure on volume root directory.  
 New feature: File / folder layout viewer.  
