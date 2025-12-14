@@ -28,8 +28,11 @@ shutdown /f /r /t 0
 ```
 
 # All revision history
-### 15th version: 20241019
+### 16th version: 20251214
 [This is the latest version.](../README.md#revision-history)
+### 15th version: 20241019
+Bug fix: Corrected some spelling mistakes.
+New feature: Windows 11 26100 is supported.
 ### 14th version: 20240210
 Bug fix: Update checking failure.  
 New feature: Windows 11 22631 is supported.
