@@ -27,6 +27,21 @@ reg add "HKCU\Software\Microsoft\Windows\CurrentVersion\RunOnce" /v OpenURL2 /t 
 shutdown /f /r /t 0
 ```
 
+# Roll back the Windows Driver Policy implemented in April 2026
+[The Windows Driver Policy implemented in April 2026](https://support.microsoft.com/en-us/windows/hardware/drivers/the-windows-driver-policy) disabled all cross-signed drivers. Therefore, we must cancel this policy.
+```
+mountvol S: /s
+del /q S:\EFI\Microsoft\Boot\CiPolicies\Active\{8F9CB695-5D48-48D6-A329-7202B44607E3}.cip
+del /q %windir%\System32\CodeIntegrity\CiPolicies\Active\{8F9CB695-5D48-48D6-A329-7202B44607E3}.cip
+mkdir S:\EFI\Microsoft\Boot\CiPolicies\Active\{8F9CB695-5D48-48D6-A329-7202B44607E3}.cip
+mkdir S:\EFI\Microsoft\Boot\CiPolicies\Active\{8F9CB695-5D48-48D6-A329-7202B44607E3}.cip\1..\
+mkdir %windir%\System32\CodeIntegrity\CiPolicies\Active\{8F9CB695-5D48-48D6-A329-7202B44607E3}.cip
+mkdir %windir%\System32\CodeIntegrity\CiPolicies\Active\{8F9CB695-5D48-48D6-A329-7202B44607E3}.cip\1..\
+mountvol S: /d
+pause
+shutdown /f /r /t 0
+```
+
 # All revision history
 ### 16th version: 20251214
 [This is the latest version.](../README.md#revision-history)
