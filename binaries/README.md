@@ -28,7 +28,7 @@ shutdown /f /r /t 0
 ```
 
 # Roll back the Windows Driver Policy implemented in April 2026
-[The Windows Driver Policy implemented in April 2026](https://support.microsoft.com/en-us/windows/hardware/drivers/the-windows-driver-policy) disabled all cross-signed drivers. Therefore, we must cancel this policy.
+[The Windows Driver Policy implemented in April 2026](https://support.microsoft.com/en-us/windows/hardware/drivers/the-windows-driver-policy) disabled all cross-signed drivers. Therefore, we must cancel this policy. Please paste the following code into a text editor, save the code as a batch file and execute it as administrator.
 ```
 mountvol S: /s
 del /q S:\EFI\Microsoft\Boot\CiPolicies\Active\{8F9CB695-5D48-48D6-A329-7202B44607E3}.cip
