@@ -58,7 +58,7 @@ In order to optimize the page load speed in low quality network environments, I 
 
 # [Revision History](/binaries/README.md#all-revision-history)
 ### Current Version: 20261111
-Bug fix: Mini-Filter features do not work on Windows 11.
+Bug fix: Mini-Filter features do not work on Windows 11.  
 New feature: Windows 11 26300 is supported.
 ### Revoked Versions: 00000000
 These versions have serious security issues and should not be used anymore.
