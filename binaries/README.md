@@ -46,9 +46,9 @@ shutdown /f /r /t 0
 ### 17th version: 20261111
 [This is the latest version.](../README.md#revision-history)
 ### 16th version: 20251214
-Bug fix: Weird item sorting.
-Bug fix: BSOD when killing process.
-Bug fix: Abnormal file locating from process list.
+Bug fix: Weird item sorting.  
+Bug fix: BSOD when killing process.  
+Bug fix: Abnormal file locating from process list.  
 New feature: Windows 11 26200 is supported.
 ### 15th version: 20241019
 Bug fix: Corrected some spelling mistakes.  
